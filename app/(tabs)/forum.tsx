@@ -1,11 +1,12 @@
+import SafeScreen from '@/components/safescreen';
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 
 const ForumScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Home!</Text>
-    </View>
+    <SafeScreen>
+      <Text style={styles.text}>Welcome to Forum!</Text>
+    </SafeScreen>
   );
 };
 

@@ -1,12 +1,12 @@
+import SafeScreen from '@/components/safescreen';
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
 const PlannerScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Home!</Text>
-    </View>
-  );
+    <SafeScreen>
+      <Text style={styles.text}>Welcome to PLanner!</Text>
+      </SafeScreen>  );
 };
 
 export default PlannerScreen;

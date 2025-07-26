@@ -1,12 +1,12 @@
+import SafeScreen from '@/components/safescreen';
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 
 const HomeScreen = () => {
   return (
-    <View style={styles.container}>
+    <SafeScreen>
       <Text style={styles.text}>Welcome sdfdsf Home!</Text>
-    </View>
-  );
+    </SafeScreen>);
 };
 
 export default HomeScreen;

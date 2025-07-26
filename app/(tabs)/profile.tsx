@@ -1,23 +1,23 @@
+import SafeScreen from '@/components/safescreen';
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 
 const ProfileScreen = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Home!</Text>
-    </View>
-  );
+    return (
+        <SafeScreen>
+            <Text style={styles.text}>Welcome to Profile!</Text>
+        </SafeScreen>);
 };
 
 export default ProfileScreen;
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  text: {
-    fontSize: 20,
-  },
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    text: {
+        fontSize: 20,
+    },
 });
