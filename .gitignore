@@ -1,0 +1,130 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+
+# ===========================
+# Expo
+# ===========================
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ===========================
+# Native (Android/iOS)
+# ===========================
+*.orig.*
+*.jks
+*.p8# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+*.p12
+*.key
+*.mobileprovision
+/android
+/ios
+*.xcworkspace
+*.xcodeproj/
+Pods/
+DerivedData/
+build/
+*.keystore
+
+# ===========================
+# Metro
+# ===========================
+.metro-health-check*
+
+# ===========================
+# Debugging
+# ===========================
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+*.pem
+
+# ===========================
+# Environment Files
+# ===========================
+.env
+.env*.local
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+
+# ===========================
+# Logs
+# ===========================
+*.log
+*.gz
+*.zip
+
+# ===========================
+# IDE / Editor Config Files
+# ===========================
+.vscode/
+.idea/
+*.iml
+
+# ===========================
+# Misc
+# ===========================
+.qodo
+app-example
+Thumbs.db
+
+
+# Ignore build artifacts
+*.aab
+*.apk
+build/
+
+
+.vercel
+
+
