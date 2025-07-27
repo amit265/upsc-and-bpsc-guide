@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
       {!menuVisible && (
         <TouchableOpacity
           onPress={() => setMenuVisible(true)}
-          style={{ position: 'absolute', right: 10, top: 10 }}>
+          style={{ position: 'absolute', right: 50, top: 50 }}>
           <Entypo name="dots-three-vertical" size={24} color="black" />
         </TouchableOpacity>
       )}

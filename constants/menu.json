@@ -1,53 +1,61 @@
-{
-    "menu": [
-      {
-        "title": "Current Affairs",
-        "component": "Current",
-        "subtopics": [
-          "Daily News",
-          "Editorial Analysis",
-          "Monthly Compilations",
-          "International Affairs",
-          "Government Schemes",
-          "Economic Updates"
-        ]
-      },
-      {
-        "title": "Prelims",
-        "component": "Prelims",
-        "subtopics": [
-          "Polity",
-          "History",
-          "Geography",
-          "Economy",
-          "Science & Tech",
-          "Environment"
-        ]
-      },
-      {
-        "title": "Mains",
-        "component": "Mains",
-        "subtopics": [
-          "GS Paper 1",
-          "GS Paper 2",
-          "GS Paper 3",
-          "GS Paper 4",
-          "Essay",
-          "Optional Subjects"
-        ]
-      },
-      {
-        "title": "Extra",
-        "component": "Extra",
-        "subtopics": [
-          "Constitution of India",
-          "Important Reports",
-          "Amendments",
-          "Bills & Acts",
-          "Judgments",
-          "Misc Resources"
-        ]
-      }
+[{
+    "title": "Current Affairs",
+    "component": "Current",
+    "subtopics": [
+      "Daily News",
+      "Editorial Analysis",
+      "Monthly Compilations",
+      "International Affairs",
+      "Government Schemes",
+      "Important Debates"
+    ]
+  },
+  {
+    "title": "Prelims",
+    "component": "Prelims",
+    "subtopics": [
+      "Polity",
+      "History",
+      "Geography",
+      "Economy",
+      "Science & Tech",
+      "Environment",
+      "Art & Culture", 
+      "Current Affairs",
+      "Previous Year Questions",
+      "Mock Tests",
+      "Revision Notes",
+      "Important Books",
+    ]
+  },
+  {
+    "title": "Mains",
+    "component": "Mains",
+    "subtopics": [
+      "GS Paper 1",
+      "GS Paper 2",
+      "GS Paper 3",
+      "GS Paper 4",
+      "Essay",
+      "Optional Subjects"
+    ]
+  },
+  {
+    "title": "Extra",
+    "component": "Extra",
+    "subtopics": [
+      "Constitution of India",
+      "NCERT Books",
+      "Yojana & Kurukshetra",
+      "Economic Survey",
+      "Budget",
+      "Government Schemes",
+      "Important Reports",
+      "Amendments",
+      "Bills & Acts",
+      "Judgments",
+      "Misc Resources"
     ]
   }
-  
+
+]

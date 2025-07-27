@@ -6,30 +6,30 @@ import Prelims from '@/components/home/Prelims';
 import SafeScreen from '@/components/safescreen';
 import menuData from "@/constants/menu.json";
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { ScrollView, StyleSheet, View } from 'react-native';
 const HomeScreen = () => {
 
-  menuData.menu.forEach((item) => {
-    console.log("title", item.title);
-  });
+  console.log("mwnudrata", menuData);
 
 
 
   return (
     <SafeScreen>
-      <Header title="UPSC" />
+              <Header title="UPSC" />
 
-      {/* main body */}
+      <ScrollView showsVerticalScrollIndicator = {false}>
 
-      <View style={{ flex: 1, }}>
+        {/* main body */}
 
-        <Current title="Current Affairs" />
-        <Prelims title="Prelims" />
-        <Mains title="Mains" />
-        <Extra title="Extra" />
+        <View style={{ flex: 1, }}>
 
-      </View>
+          <Current data={menuData[0]} />
+          <Prelims data={menuData[1]} />
+          <Mains data={menuData[2]} />
+          <Extra data={menuData[3]} />
 
+        </View>
+      </ScrollView>
 
     </SafeScreen>);
 };
