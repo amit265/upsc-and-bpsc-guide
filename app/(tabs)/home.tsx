@@ -4,12 +4,10 @@ import Header from '@/components/home/Header';
 import Mains from '@/components/home/Mains';
 import Prelims from '@/components/home/Prelims';
 import SafeScreen from '@/components/safescreen';
-import menuData from "@/constants/menu.json";
+import menuData from "@/assets/data/menu.json";
 import React from 'react';
 import { ScrollView, StyleSheet, View } from 'react-native';
 const HomeScreen = () => {
-
-  console.log("mwnudrata", menuData);
 
 
 

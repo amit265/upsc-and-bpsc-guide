@@ -18,6 +18,7 @@ const tileColors = [
 ];
 
 const getColorFromTitle = (title) => {
+
   let hash = 0;
   for (let i = 0; i < title.length; i++) {
     hash = title.charCodeAt(i) + ((hash << 5) - hash);
@@ -31,19 +32,20 @@ const getColorFromTitle = (title) => {
 const CategoryCard = ({ data }) => {
   const category = data || [];
 
+  
+
   // Educational color palette
 
 
-  console.log("cateory", data);
 
 
   return (
     <View style={styles.container}>
-      {category.map((item, index) => (
-        <View key={index} style={styles.card}>
-          <View style={[styles.iconTile, { backgroundColor: getColorFromTitle(item) }]}>
+      {category.map((item) => (
+        <View key={item?.id} style={styles.card}>
+          <View style={[styles.iconTile, { backgroundColor: getColorFromTitle(item?.title) }]}>
           <Text style={styles.iconText}>
-              {item
+              {item?.title
                 .split(' ')
                 .map(word => word[0])
                 .join('')
@@ -51,7 +53,7 @@ const CategoryCard = ({ data }) => {
                 .slice(0, 4)}
             </Text>
           </View>
-          <Text style={styles.title} numberOfLines={2}>{item}</Text>
+          <Text style={styles.title} numberOfLines={2}>{item?.title}</Text>
         </View>
       ))}
     </View>

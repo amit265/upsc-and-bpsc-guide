@@ -1,0 +1,25 @@
+{
+  "id": "user",
+  "firstTime": true,
+  "profile": {
+    "name": "User",
+    "avatar": "avatar3.png",
+    "createdAt": "2025-05-13",
+    "lastAccessed": "2025-05-13"
+  },
+  "progress": {
+    "mod01": 75,
+    "mod02": 100
+  },
+  "bookmarkedFlashcards": ["fc101", "fc105"],
+  "quizHistory": [{
+    "quizId": "qz201",
+    "score": 80,
+    "date": "2025-05-13"
+  }],
+  "streak": 3,
+  "settings": {
+    "darkMode": true,
+    "notifications": false
+  }
+}
