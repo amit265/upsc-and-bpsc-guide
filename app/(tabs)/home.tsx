@@ -35,10 +35,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({
-
-  text: {
-    fontSize: 20,
-  },
-});

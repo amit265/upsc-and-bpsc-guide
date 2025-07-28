@@ -1,26 +1,97 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import colors from '@/constants/colors';
+import React from 'react';
+import { Dimensions, StyleSheet, Text, View } from 'react-native';
+
+const CARD_WIDTH = Dimensions.get('window').width / 4 - 16;
+
+const tileColors = [
+  '#4F8EF7', // Blue
+  '#34A853', // Green
+  '#F9AB00', // Amber
+  '#F28B82', // Soft Red
+  '#A142F4', // Purple
+  '#03BFCB', // Cyan
+  '#F67C1C', // Orange
+  '#DB4437', // Red
+  '#FFB74D', // Light Orange
+  '#81C784', // Light Green
+];
+
+const getColorFromTitle = (title) => {
+  let hash = 0;
+  for (let i = 0; i < title.length; i++) {
+    hash = title.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const index = Math.abs(hash) % tileColors.length;
+  return tileColors[index];
+};
 
 
 
-const CategoryCard = (data) => {
+const CategoryCard = ({ data }) => {
+  const category = data || [];
 
-    const category = data?.data;
+  // Educational color palette
 
-    console.log("category", category);
 
-    
+  console.log("cateory", data);
+
+
   return (
-
-    <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-around' }}>
-        {category.map((item, index) => (
-            <View key={index} style={{ padding: 10, borderWidth: 1, margin: 5, height: 80, width: 80 }}>
-            <Text style={{fontSize: 12}}>{item}</Text>
-            {/* You can add more details about the category here */}
-            </View>
-        ))}
+    <View style={styles.container}>
+      {category.map((item, index) => (
+        <View key={index} style={styles.card}>
+          <View style={[styles.iconTile, { backgroundColor: getColorFromTitle(item) }]}>
+          <Text style={styles.iconText}>
+              {item
+                .split(' ')
+                .map(word => word[0])
+                .join('')
+                .toUpperCase()
+                .slice(0, 4)}
+            </Text>
+          </View>
+          <Text style={styles.title} numberOfLines={2}>{item}</Text>
+        </View>
+      ))}
     </View>
-  )
-}
+  );
+};
 
-export default CategoryCard
+export default CategoryCard;
+
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    paddingVertical: 8,
+    gap: 8,
+    justifyContent: "space-evenly"
+  },
+  card: {
+    width: CARD_WIDTH,
+    alignItems: 'center',
+    marginVertical: 12,
+    
+  },
+  iconTile: {
+    width: 80,
+    height: 80,
+    borderRadius: 12,
+    backgroundColor: '#f2f2f2',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 6,
+  },
+  iconText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: colors.PRIMARY || '#333',
+  },
+  title: {
+    fontSize: 11,
+    textAlign: 'center',
+    fontFamily: 'quicksand-bold',
+    color: colors.BLACK || '#333',
+  },
+});

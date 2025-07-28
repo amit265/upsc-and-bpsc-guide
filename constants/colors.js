@@ -1,5 +1,5 @@
 export default {
-    BACKGROUND: "#CBE7F7",
+    BACKGROUND: "#F9F9F9",
     TEXT: "#000000",
     SETTING_BUTTON: "#4F2E2D",
     WHITE: "#FFFFFF",

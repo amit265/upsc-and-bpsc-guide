@@ -1,21 +1,35 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 import CategoryCard from './CategoryCard';
 
-const Extra = (data) => {
+const Extra = ({ data }) => {
+  const { title, subtopics } = data;
 
-  const {title, subtopics} = data?.data;
-
-  console.log("propshgdhg", subtopics);
-  
   return (
-    <View style={{ padding: 10, borderWidth: 1, margin: 5 }}>
-   
-      <Text style={{ fontSize: 25, fontWeight: 'bold', paddingBottom: 20 }}>{title}</Text>
-     
-     <CategoryCard data={subtopics}/>
+    <View style={styles.container}>
+      <Text style={styles.title}>{title}</Text>
+      <CategoryCard data={subtopics} />
     </View>
-  )
-}
+  );
+};
 
 export default Extra;
+
+const styles = StyleSheet.create({
+  container: {
+    borderRadius: 12,
+    padding: 12,
+    marginVertical: 8,
+    marginHorizontal: 10,
+    borderWidth: 1,
+    borderColor: '#e0e0e0',
+    backgroundColor: '#fff',
+    elevation: 1,
+  },
+  title: {
+    fontSize: 20,
+    fontFamily: 'quicksand-bold',
+    paddingBottom: 10,
+    color: '#333',
+  },
+});

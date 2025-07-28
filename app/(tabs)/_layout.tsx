@@ -13,7 +13,7 @@ const TabsLayout = () => {
                 screenOptions={({ route }) => ({
                     headerShown: false,
                     tabBarActiveTintColor: "#007bff",
-                    tabBarShowLabel: false,
+                    tabBarShowLabel: true,
 
                     tabBarStyle: {
                         paddingTop: 8,
