@@ -3,12 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import CategoryCard from './CategoryCard';
 
 const Prelims = ({ data }) => {
-  const { title, subtopics } = data;
+  const { title } = data;
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
-      <CategoryCard data={subtopics} />
+      <CategoryCard data={data} />
     </View>
   );
 };

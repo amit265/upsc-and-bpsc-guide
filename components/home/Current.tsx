@@ -5,10 +5,12 @@ import CategoryCard from './CategoryCard';
 const Current = ({ data }) => {
   const { title, subtopics } = data;
 
+  
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
-      <CategoryCard data={subtopics} />
+      <CategoryCard data={data} />
     </View>
   );
 };

@@ -13,7 +13,7 @@ export default function Index() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.replace("/home");
-    }, 13000);
+    }, 3000);
 
     return () => clearTimeout(timer);
 
@@ -47,7 +47,7 @@ export default function Index() {
             <Text style={styles.buttonText}>Go to Profile</Text>
           </Pressable> */}
 
-          <Pressable onPress={() => router.push("/home")} style={styles.button}>
+          <Pressable onPress={() => router.replace("/home")} style={styles.button}>
             <Text style={styles.buttonText}>Go to Home</Text>
           </Pressable>
         </View>
