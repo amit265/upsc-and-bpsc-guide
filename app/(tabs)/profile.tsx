@@ -132,5 +132,6 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         borderRadius: 10,
         padding: 20,
+        height: "80%"
     },
 });

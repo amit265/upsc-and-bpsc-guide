@@ -1,23 +1,37 @@
 import SafeScreen from "@/components/safescreen";
 import colors from "@/constants/colors";
 import { useRouter } from "expo-router";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 
 export default function Index() {
   const router = useRouter();
 
-
+  const [seconds, setSeconds] = useState(5);
 
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      router.replace("/home");
-    }, 3000);
 
-    return () => clearTimeout(timer);
+    const timer = setInterval(() => {
+      setSeconds((prev) => {
+        if (prev <= 1) {
+          clearInterval(timer); // Clear the timer
+          return 0; // Stop the countdown
+        }
+        return prev - 1; // Decrease the countdown
+      });
+
+    }, 1000); // Update every second
+
+
 
   }, [])
+
+  useEffect(() => {
+    if (seconds === 0) {
+      router.replace("/home"); // Redirect to home when countdown reaches 0
+    }
+  }, [seconds, router]);
 
 
 
@@ -42,6 +56,11 @@ export default function Index() {
           <Text style={styles.subText}>
             Explore the app to find resources, quizzes, and more.
           </Text>
+          <Text style={styles.subText}>
+            Redirecting to Home in {seconds} seconds...
+          </Text>
+
+
 
           {/* <Pressable onPress={() => router.push("/profile")} style={styles.button}>
             <Text style={styles.buttonText}>Go to Profile</Text>

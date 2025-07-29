@@ -1,0 +1,33 @@
+[
+    {
+      "id": "editorial-001",
+      "title": "Bridging the Health Infrastructure Gap",
+      "date": "2025-07-28",
+      "summary": "This editorial highlights the growing urban-rural divide in healthcare access and suggests policy-level investments in district hospitals.",
+      "source": "The Hindu",
+      "tags": ["health", "infrastructure", "policy"],
+      "subtopic": "health",
+      "topic": "editorial"
+    },
+    {
+      "id": "editorial-002",
+      "title": "Revisiting India’s Foreign Policy",
+      "date": "2025-07-27",
+      "summary": "An analysis of India's diplomatic balancing act between the US, Russia, and its neighbors, especially in light of recent BRICS expansion.",
+      "source": "Indian Express",
+      "tags": ["foreign policy", "international relations"],
+      "subtopic": "international",
+      "topic": "editorial"
+    },
+    {
+      "id": "editorial-003",
+      "title": "Climate Governance Needs Decentralization",
+      "date": "2025-07-26",
+      "summary": "The editorial argues for more authority at the state and local levels to implement climate resilience measures effectively.",
+      "source": "LiveMint",
+      "tags": ["climate", "governance", "environment"],
+      "subtopic": "environment",
+      "topic": "editorial"
+    }
+  ]
+  

@@ -4,6 +4,7 @@ import CategoryCard from './CategoryCard';
 
 const Current = ({ data }) => {
   const { title, subtopics } = data;
+console.log("data from curent", data);
 
   
 

@@ -26,6 +26,8 @@
     },
     "plugins": [
       "expo-router",
+      "expo-font",
+
       [
         "expo-splash-screen",
         {
@@ -33,6 +35,19 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#f9f9f9"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "minSdkVersion": 24,
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "enableHermes": true
+          }
         }
       ]
     ],
@@ -44,6 +59,8 @@
       "eas": {
         "projectId": "34976dfa-0620-4414-ba04-f642952a9d0a"
       }
-    }
+    },
+    "owner": "mindcraftlearning"
+
   }
 }

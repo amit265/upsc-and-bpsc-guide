@@ -1,0 +1,336 @@
+{
+    "2025-07-28": [
+      {
+        "topic": "daily-articles",
+        "title": "India signs agreement with Bangladesh",
+        "summary": "India and Bangladesh signed a key water-sharing deal for the Teesta river after months of negotiation.",
+        "source": "PIB",
+        "tags": ["International", "Bilateral"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "NITI Aayog publishes report on urban planning",
+        "summary": "The report suggests city-specific reforms for sustainable and resilient growth.",
+        "source": "The Hindu",
+        "tags": ["Governance", "Urban Development"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "New initiative for tribal welfare launched",
+        "summary": "The 'Van Dhan 2.0' program aims to enhance income for forest-dependent tribes.",
+        "source": "PIB",
+        "tags": ["Social Justice", "Tribal Affairs"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "ISRO to launch Venus mission in 2026",
+        "summary": "The Shukrayaan mission will study Venus' atmosphere and geological structure.",
+        "source": "Times of India",
+        "tags": ["Science & Tech", "Space"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Supreme Court hears plea on One Nation, One Election",
+        "summary": "Centre submitted a draft framework for synchronizing elections across states and Parliament.",
+        "source": "LiveLaw",
+        "tags": ["Polity", "Judiciary"]
+      }
+    ],
+    "2025-07-27": [
+      {
+        "topic": "daily-articles",
+        "title": "SEBI announces new IPO regulations",
+        "summary": "SEBI has introduced simplified IPO norms to encourage startups and improve transparency.",
+        "source": "Indian Express",
+        "tags": ["Economy", "Regulations"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "India's forest cover increased by 0.5%",
+        "summary": "Forest Survey of India released latest data showing improvement in green cover.",
+        "source": "PIB",
+        "tags": ["Environment", "Reports"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "MoU signed for skill development in NE region",
+        "summary": "Ministry of Skill Development partners with IIT-Guwahati for upskilling in Northeast India.",
+        "source": "PIB",
+        "tags": ["Skill Development", "Regional Focus"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Inflation drops to 4.2% in June 2025",
+        "summary": "RBI says decline in food prices contributed to the fall in inflation.",
+        "source": "Economic Times",
+        "tags": ["Economy", "Inflation"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "UNESCO declares Hampi a World Heritage City",
+        "summary": "Hampi gains urban heritage status for preserving its temple-town character.",
+        "source": "The Hindu",
+        "tags": ["Culture", "UNESCO"]
+      }
+    ],
+    "2025-07-26": [
+      {
+        "topic": "daily-articles",
+        "title": "India chairs BRICS Health Ministers' Meet",
+        "summary": "The summit focused on pandemic preparedness and universal health coverage.",
+        "source": "PIB",
+        "tags": ["International", "Health"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Khelo India Youth Games concludes in Bhopal",
+        "summary": "Haryana tops medal tally; sports ministry calls it a success for grassroots talent.",
+        "source": "The Hindu",
+        "tags": ["Sports", "Government Schemes"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Arsenic contamination found in Bihar groundwater",
+        "summary": "Study reveals unsafe levels of arsenic in 10 districts; Centre to step in.",
+        "source": "Down to Earth",
+        "tags": ["Health", "Environment"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "SC refuses stay on Agnipath recruitment scheme",
+        "summary": "Petitioners argued the scheme violated equal opportunity norms.",
+        "source": "LiveLaw",
+        "tags": ["Judiciary", "Defense"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Cabinet approves PLI Scheme for Green Hydrogen",
+        "summary": "₹15,000 crore allocated to boost India’s hydrogen economy.",
+        "source": "PIB",
+        "tags": ["Economy", "Renewables"]
+      }
+    ],
+    "2025-07-25": [
+      {
+        "topic": "daily-articles",
+        "title": "UN Report flags climate-induced migration in India",
+        "summary": "By 2050, over 20 million could be displaced due to rising sea levels.",
+        "source": "UNEP",
+        "tags": ["Environment", "Migration"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "RBI launches digital currency pilot in 3 more cities",
+        "summary": "Retail e₹ expansion continues with focus on urban and semi-urban areas.",
+        "source": "PIB",
+        "tags": ["Economy", "Digital India"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Women’s Reservation Bill likely in Winter Session",
+        "summary": "Reports indicate political consensus building for long-pending reform.",
+        "source": "Indian Express",
+        "tags": ["Polity", "Women Empowerment"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "India achieves full electrification of villages",
+        "summary": "All inhabited census villages now connected to the grtopic.",
+        "source": "PIB",
+        "tags": ["Infrastructure", "Governance"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "NCERT revises Class 10 History syllabus",
+        "summary": "New topics on tribal revolts and regional kingdoms added.",
+        "source": "The Hindu",
+        "tags": ["Education", "Curriculum"]
+      }
+    ],
+    "2025-07-24": [
+      {
+        "topic": "daily-articles",
+        "title": "Centre to roll out Digital Census 2025",
+        "summary": "New census will use handheld devices and online self-enumeration.",
+        "source": "PIB",
+        "tags": ["Governance", "Data"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "New wetlands added to Ramsar list",
+        "summary": "4 new Indian wetlands gain international recognition.",
+        "source": "Down to Earth",
+        "tags": ["Environment", "Conservation"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "India to host Global Buddhist Conference",
+        "summary": "Event will be held in Bodh Gaya with participation from 30+ countries.",
+        "source": "PIB",
+        "tags": ["Culture", "Soft Power"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "SC directs state to implement prison reforms",
+        "summary": "Calls for improving living conditions and reducing overcrowding.",
+        "source": "LiveLaw",
+        "tags": ["Judiciary", "Human Rights"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "BharatNet Phase-II launched in rural Maharashtra",
+        "summary": "High-speed internet connectivity to reach 1.5 lakh gram panchayats.",
+        "source": "PIB",
+        "tags": ["Infrastructure", "Digital India"]
+      }
+    ],
+    "2025-07-23": [
+      {
+        "topic": "daily-articles",
+        "title": "India successfully tests Agni-VI missile",
+        "summary": "New-generation ICBM has longer range and MIRV capability.",
+        "source": "DRDO",
+        "tags": ["Defense", "Science & Tech"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "National Education Policy review begins",
+        "summary": "Expert panel set up to assess implementation and gaps.",
+        "source": "The Hindu",
+        "tags": ["Education", "Governance"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "MSME ministry launches credit support portal",
+        "summary": "One-stop solution for Udyam-registered businesses seeking funding.",
+        "source": "PIB",
+        "tags": ["Economy", "MSME"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "India joins International Solar Alliance's Green Grtopic project",
+        "summary": "To promote cross-border solar energy trade.",
+        "source": "PIB",
+        "tags": ["Renewables", "International"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "New archaeological site found in Gujarat",
+        "summary": "ASIs excavation reveals evtopicence of Indus Valley settlement.",
+        "source": "The Hindu",
+        "tags": ["History", "Culture"]
+      }
+    ],
+    "2025-07-22": [
+      {
+        "topic": "daily-articles",
+        "title": "Cabinet clears Data Protection Bill",
+        "summary": "The bill aims to safeguard citizens' personal data and ensure transparency.",
+        "source": "Indian Express",
+        "tags": ["Law", "Digital"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "UAPA tribunal upholds ban on PFI",
+        "summary": "Confirms the group's involvement in unlawful activities.",
+        "source": "LiveLaw",
+        "tags": ["Internal Security", "Law"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "India's GDP expected to grow at 7.2%: IMF",
+        "summary": "IMF revises forecast citing strong domestic consumption.",
+        "source": "Economic Times",
+        "tags": ["Economy", "Growth"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Suposhit Bharat Abhiyan launched",
+        "summary": "New scheme targets child malnutrition in 100 aspirational districts.",
+        "source": "PIB",
+        "tags": ["Health", "Social Welfare"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "UNSC discusses India's push for permanent seat",
+        "summary": "India presents credentials at reform summit.",
+        "source": "The Hindu",
+        "tags": ["International", "UN"]
+      }
+    ],
+    "2025-07-21": [
+      {
+        "topic": "daily-articles",
+        "title": "GST Council recommends changes to slab rates",
+        "summary": "Proposes merging 12% and 18% slabs into one.",
+        "source": "Indian Express",
+        "tags": ["Economy", "Taxation"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "PM launches Jal Jeevan Suraksha Mission",
+        "summary": "Focus on water conservation in drought-prone states.",
+        "source": "PIB",
+        "tags": ["Environment", "Schemes"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "India signs MoU with France on AI collaboration",
+        "summary": "To promote ethical AI research and innovation.",
+        "source": "PIB",
+        "tags": ["Science & Tech", "International"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Delhi High Court rules on digital privacy case",
+        "summary": "Sets precedent on consent in personal data usage.",
+        "source": "LiveLaw",
+        "tags": ["Judiciary", "Digital"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Madhya Pradesh tops in PMAY implementation",
+        "summary": "State awarded for building maximum urban houses under the scheme.",
+        "source": "PIB",
+        "tags": ["Urban Development", "Schemes"]
+      }
+    ],
+    "2025-07-20": [
+      {
+        "topic": "daily-articles",
+        "title": "World Bank releases Ease of Doing Business 2025",
+        "summary": "India ranks 56th; praised for insolvency reforms and digital interface.",
+        "source": "World Bank",
+        "tags": ["Economy", "Reforms"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "New gutopicelines issued on digital lending",
+        "summary": "RBI restricts third-party platforms from accessing customer data without consent.",
+        "source": "PIB",
+        "tags": ["Banking", "Digital"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Global Tiger Census 2025 begins",
+        "summary": "India to lead survey using drone and camera trap technology.",
+        "source": "PIB",
+        "tags": ["Environment", "Wildlife"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Rajasthan to introduce UCC bill",
+        "summary": "First state after Uttarakhand to take the step.",
+        "source": "The Hindu",
+        "tags": ["Polity", "Law"]
+      },
+      {
+        "topic": "daily-articles",
+        "title": "Indigenous vaccine for dengue shows 90% efficacy",
+        "summary": "ICMR announces trial results of new vaccine.",
+        "source": "PIB",
+        "tags": ["Health", "Science"]
+      }
+    ]
+  }
+  

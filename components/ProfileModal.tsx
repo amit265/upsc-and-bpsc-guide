@@ -1,13 +1,15 @@
 import { useRouter } from "expo-router";
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import {
-  BackHandler,
   Image,
   ScrollView,
+  StyleSheet,
   Text,
   TextInput,
   TouchableOpacity,
   View,
+  KeyboardAvoidingView,
+  Platform,
 } from "react-native";
 import { availableImages } from "../constants/constants";
 import { userDetailsContext } from "../context/context";
@@ -16,33 +18,25 @@ import Button from "./shared/Button";
 const ProfileModal = ({ setShowModal }) => {
   const [selectedImage, setSelectedImage] = useState(availableImages[0]);
   const { userData, updateUser } = useContext(userDetailsContext);
-
   const [error, setError] = useState("");
-
-  const [username, setUsername] = useState(userData?.profile.name);
+  const [username, setUsername] = useState(userData?.profile.name || "");
   const router = useRouter();
-
-  
 
   const handleUsernameChange = (text) => {
     const trimmed = text.trim();
-
-    // Check for length
     if (trimmed.length > 15) {
       setError("Username can't be more than 15 characters.");
       return;
     }
-
-    // Check for allowed characters (letters, numbers, underscores only)
     const regex = /^[a-zA-Z0-9_]*$/;
     if (!regex.test(trimmed)) {
       setError("Only letters, numbers, and underscores allowed.");
     } else {
       setError("");
     }
-
     setUsername(trimmed);
   };
+
   const saveData = () => {
     if (!username || username === "user") {
       setError("Change username");
@@ -63,68 +57,125 @@ const ProfileModal = ({ setShowModal }) => {
       },
     }));
 
-    // router.replace("/(tabs)/profile");
     setShowModal(false);
   };
 
   return (
-    <View className="items-center mt-4">
-      <View className="p-4 pb-8">
-        <Text className="text-xl font-nunito-bold text-center mb-6">
-          Let’s set up your profile ✨
-        </Text>
-      </View>
-      <Image
-        source={selectedImage.source}
-        style={{ width: 120, height: 120, borderRadius: 60, marginBottom: 12 }}
-      />
-
-      <Text className="text-lg font-nunito mb-2">
-        Select an Avatar:
-      </Text>
-
+    <KeyboardAvoidingView
+      behavior={Platform.OS === "ios" ? "padding" : undefined}
+      style={styles.wrapper}
+    >
       <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        contentContainerStyle={{ paddingHorizontal: 10 }}
+        contentContainerStyle={styles.content}
+        showsVerticalScrollIndicator={false}
       >
-        {availableImages.map((img, index) => (
-          <TouchableOpacity
-            key={index}
-            onPress={() => setSelectedImage(img)}
-            style={{ marginHorizontal: 6 }}
-          >
-            <Image
-              source={img.source}
-              style={{
-                width: 70,
-                height: 70,
-                borderRadius: 35,
-                borderWidth: selectedImage === img ? 2 : 0,
-                borderColor: selectedImage === img ? "#4F46E5" : "transparent",
-              }}
-            />
-          </TouchableOpacity>
-        ))}
+        <Text style={styles.title}>Let's set up your profile ✨</Text>
+
+        <Image source={selectedImage.source} style={styles.avatarPreview} />
+
+        <Text style={styles.label}>Select an Avatar:</Text>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.avatarScroll}
+        >
+          {availableImages.map((img, index) => (
+            <TouchableOpacity
+              key={index}
+              onPress={() => setSelectedImage(img)}
+              style={styles.avatarOption}
+            >
+              <Image
+                source={img.source}
+                style={[
+                  styles.avatarImage,
+                  selectedImage === img && styles.avatarSelected,
+                ]}
+              />
+            </TouchableOpacity>
+          ))}
+        </ScrollView>
+
+        <View style={styles.inputWrapper}>
+          <Text style={styles.label}>Username</Text>
+          <TextInput
+            value={username}
+            onChangeText={handleUsernameChange}
+            maxLength={15}
+            placeholder="Enter your name"
+            style={styles.input}
+          />
+          {error ? <Text style={styles.error}>{error}</Text> : null}
+        </View>
+
+        <Button text={"Continue"} onPress={saveData} />
       </ScrollView>
-
-      <View className="w-full mb-6" style={{ marginBottom: 20, marginTop: 50 }}>
-        <Text className="text-base font-nunito mb-2">Username</Text>
-        <TextInput
-          value={username}
-          onChangeText={handleUsernameChange}
-          maxLength={15}
-          placeholder="Enter your name"
-          className="border border-gray-300 rounded-lg px-4 py-2 bg-white font-nunito"
-        />
-        {error ? (
-          <Text className="text-red-500 text-sm mt-2">{error}</Text>
-        ) : null}
-      </View>
-
-      <Button text={"Continue"} onPress={saveData} />
-    </View>
+    </KeyboardAvoidingView>
   );
 };
 
 export default ProfileModal;
+
+const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  content: {
+    padding: 24,
+    alignItems: "center",
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: "bold",
+    marginBottom: 20,
+    textAlign: "center",
+  },
+  avatarPreview: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    marginBottom: 20,
+  },
+  label: {
+    fontSize: 16,
+    marginBottom: 8,
+  },
+  avatarScroll: {
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    marginBottom: 32,
+  },
+  avatarOption: {
+    marginHorizontal: 6,
+  },
+  avatarImage: {
+    width: 70,
+    height: 70,
+    borderRadius: 35,
+    borderWidth: 1,
+    borderColor: "#ccc",
+  },
+  avatarSelected: {
+    borderWidth: 2,
+    borderColor: "#4F46E5",
+  },
+  inputWrapper: {
+    width: "100%",
+    marginBottom: 24,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    backgroundColor: "#fff",
+    fontSize: 16,
+  },
+  error: {
+    color: "red",
+    fontSize: 13,
+    marginTop: 6,
+  },
+});
