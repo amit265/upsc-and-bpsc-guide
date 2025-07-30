@@ -15,9 +15,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
+
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.mindcraftlearning.upscandbpscguide"
+      "package": "com.mindcraftlearning.upscandbpscguide",
+      "versionCode": 1
+
     },
     "web": {
       "bundler": "metro",
