@@ -20,7 +20,7 @@ const Index = () => {
   );
 
 
-  console.log("newsData:", newsData);
+  // console.log("newsData:", newsData);
 
   if (!topicId || !subtopicId) {
     return (

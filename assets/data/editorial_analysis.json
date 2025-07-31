@@ -1,33 +1,71 @@
-[
-    {
-      "id": "editorial-001",
-      "title": "Bridging the Health Infrastructure Gap",
-      "date": "2025-07-28",
-      "summary": "This editorial highlights the growing urban-rural divide in healthcare access and suggests policy-level investments in district hospitals.",
-      "source": "The Hindu",
-      "tags": ["health", "infrastructure", "policy"],
-      "subtopic": "health",
-      "topic": "editorial"
+[{
+        "id": "editorial-001",
+        "title": "Bridging the Health Infrastructure Gap",
+        "date": "2025-07-28",
+        "summary": "This editorial highlights the persistent gap in healthcare infrastructure between urban and rural areas in India. While metro cities have seen substantial investment in medical technology and super-specialty hospitals, the same cannot be said for smaller towns and villages. The COVID-19 pandemic revealed the fragility of healthcare systems in rural districts, where there is a severe shortage of trained personnel, ICU beds, oxygen supply, and diagnostics. The article calls for focused policy-level reforms, including the upgradation of district hospitals and the creation of rural health hubs. It argues that Public-Private Partnerships (PPPs) should be encouraged, but not at the cost of equity or affordability. The National Health Mission (NHM), though a step in the right direction, requires better monitoring and funding. Strengthening primary healthcare, especially through telemedicine and mobile health units, is also emphasized as a solution for India's vast rural terrain. The article concludes by stressing that health must be seen as a foundational public good rather than a market commodity, and equitable access to quality healthcare should be a national priority.",
+        "source": "The Hindu",
+        "tags": ["health", "infrastructure", "policy"],
+        "subtopic": "health",
+        "topic": "editorial"
     },
     {
-      "id": "editorial-002",
-      "title": "Revisiting India’s Foreign Policy",
-      "date": "2025-07-27",
-      "summary": "An analysis of India's diplomatic balancing act between the US, Russia, and its neighbors, especially in light of recent BRICS expansion.",
-      "source": "Indian Express",
-      "tags": ["foreign policy", "international relations"],
-      "subtopic": "international",
-      "topic": "editorial"
+        "id": "editorial-002",
+        "title": "Revisiting India's Foreign Policy",
+        "date": "2025-07-27",
+        "summary": "India's foreign policy is entering a phase of recalibration as global alliances shift and multipolarity emerges. The recent expansion of BRICS to include countries like Egypt, Iran, and Argentina has reignited discussions on how India balances its relationships with major powers like the US and Russia while asserting leadership in the Global South. The editorial explores the nuances of India's strategic autonomy, a core tenet of its foreign policy that allows for multi-directional engagement. At the same time, India faces increasing pressure to take clearer stands on contentious global issues such as the Ukraine war, China’s assertiveness in the Indo-Pacific, and global trade realignments. The article suggests that India’s diplomacy must be more agile and transparent, especially as it eyes permanent membership in the UN Security Council. Soft power tools like cultural diplomacy, the diaspora, and development partnerships in Africa and Southeast Asia are highlighted as critical levers. The editorial concludes by arguing that foreign policy should not be an elite exercise but a democratic one, with wider public engagement and accountability.",
+        "source": "Indian Express",
+        "tags": ["foreign policy", "international relations"],
+        "subtopic": "international",
+        "topic": "editorial"
     },
     {
-      "id": "editorial-003",
-      "title": "Climate Governance Needs Decentralization",
-      "date": "2025-07-26",
-      "summary": "The editorial argues for more authority at the state and local levels to implement climate resilience measures effectively.",
-      "source": "LiveMint",
-      "tags": ["climate", "governance", "environment"],
-      "subtopic": "environment",
-      "topic": "editorial"
+        "id": "editorial-003",
+        "title": "Climate Governance Needs Decentralization",
+        "date": "2025-07-26",
+        "summary": "India's climate strategy is at a crossroads. While the country has made international commitments under the Paris Agreement and pledged net-zero emissions by 2070, on-the-ground implementation remains uneven. This editorial argues for greater decentralization in climate governance, allowing states and local governments to design and execute context-specific policies. Centralized models often overlook regional variations in vulnerability and capacity. For instance, the drought-prone Bundelkhand region requires water-conservation-centric plans, while coastal areas like Odisha need cyclone-resilient infrastructure. The editorial emphasizes empowering Panchayati Raj Institutions (PRIs) with funds and technical training for localized mitigation and adaptation measures. It also calls for climate budgeting at the district level and integrating environmental goals into local development plans. By giving states more autonomy and recognizing them as key stakeholders, India can make its climate action more democratic and effective. The piece concludes that India’s success in tackling the climate crisis will depend not only on national intent but also on grassroots implementation.",
+        "source": "LiveMint",
+        "tags": ["climate", "governance", "environment"],
+        "subtopic": "environment",
+        "topic": "editorial"
+    },
+    {
+        "id": "editorial-004",
+        "title": "The Urgency of Police Reforms",
+        "date": "2025-07-25",
+        "summary": "Recent incidents of custodial violence and rising public mistrust in law enforcement have brought the long-pending issue of police reforms back into focus. This editorial examines how India's policing system, still governed largely by the colonial-era Police Act of 1861, is ill-suited for a modern democratic society. It argues that without structural changes—such as separating law and order from investigation functions, ensuring independent oversight bodies, and fixing tenure for senior officers—reforms will remain superficial. The editorial also highlights the need for better training in human rights, mental health support for officers, and the use of technology for transparency. The Supreme Court’s 2006 directives on police reform, such as establishing Police Complaints Authorities and State Security Commissions, are yet to be implemented fully in most states. The editorial concludes by stressing that policing must evolve from a force-based model to a service-oriented approach, with accountability, community engagement, and rule of law at its core.",
+        "source": "The Hindu",
+        "tags": ["police", "reform", "governance"],
+        "subtopic": "governance",
+        "topic": "editorial"
+    },
+    {
+        "id": "editorial-005",
+        "title": "Reviving India's Rural Economy",
+        "date": "2025-07-24",
+        "summary": "India's rural economy, which supports nearly 65% of the population, has been under severe strain due to declining agricultural incomes, erratic monsoons, and job scarcity. This editorial explores pathways to revive rural livelihoods in a sustainable manner. It argues for a multi-pronged approach: investing in rural infrastructure like cold storage, farm-to-market roads, and irrigation; expanding access to credit and crop insurance; and strengthening value chains for non-farm activities like handloom, dairy, and agro-processing. The article also emphasizes the need to increase the outlay for MGNREGA and ensure timely payments to boost consumption in rural areas. Digital skilling, rural entrepreneurship, and women-led Self Help Groups (SHGs) are flagged as long-term solutions for non-farm employment. The editorial critiques over-reliance on agriculture and urges a shift toward diversified rural growth, including renewable energy projects and rural tourism. It concludes that a resilient rural economy is not only vital for inclusive development but also for ensuring national stability and reducing urban migration.",
+        "source": "Business Standard",
+        "tags": ["rural economy", "agriculture", "employment"],
+        "subtopic": "economy",
+        "topic": "editorial"
+    },
+    {
+        "id": "editorial-006",
+        "title": "The Urgency of Police Reforms",
+        "date": "2025-07-25",
+        "summary": "Recent incidents of custodial violence and rising public mistrust in law enforcement have brought the long-pending issue of police reforms back into focus. This editorial examines how India's policing system, still governed largely by the colonial-era Police Act of 1861, is ill-suited for a modern democratic society. It argues that without structural changes—such as separating law and order from investigation functions, ensuring independent oversight bodies, and fixing tenure for senior officers—reforms will remain superficial. The editorial also highlights the need for better training in human rights, mental health support for officers, and the use of technology for transparency. The Supreme Court’s 2006 directives on police reform, such as establishing Police Complaints Authorities and State Security Commissions, are yet to be implemented fully in most states. The editorial concludes by stressing that policing must evolve from a force-based model to a service-oriented approach, with accountability, community engagement, and rule of law at its core.",
+        "source": "The Hindu",
+        "tags": ["police", "reform", "governance"],
+        "subtopic": "governance",
+        "topic": "editorial"
+    },
+    {
+        "id": "editorial-007",
+        "title": "Reviving India's Rural Economy",
+        "date": "2025-07-24",
+        "summary": "India's rural economy, which supports nearly 65% of the population, has been under severe strain due to declining agricultural incomes, erratic monsoons, and job scarcity. This editorial explores pathways to revive rural livelihoods in a sustainable manner. It argues for a multi-pronged approach: investing in rural infrastructure like cold storage, farm-to-market roads, and irrigation; expanding access to credit and crop insurance; and strengthening value chains for non-farm activities like handloom, dairy, and agro-processing. The article also emphasizes the need to increase the outlay for MGNREGA and ensure timely payments to boost consumption in rural areas. Digital skilling, rural entrepreneurship, and women-led Self Help Groups (SHGs) are flagged as long-term solutions for non-farm employment. The editorial critiques over-reliance on agriculture and urges a shift toward diversified rural growth, including renewable energy projects and rural tourism. It concludes that a resilient rural economy is not only vital for inclusive development but also for ensuring national stability and reducing urban migration.",
+        "source": "Business Standard",
+        "tags": ["rural economy", "agriculture", "employment"],
+        "subtopic": "economy",
+        "topic": "editorial"
     }
-  ]
-  
+]

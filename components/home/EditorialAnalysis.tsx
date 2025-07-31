@@ -10,12 +10,18 @@ const EditorialAnalysis = (props: Props) => {
     const { data } = props;
     const router = useRouter();
 
-
-
+    console.log("data from category", data);
 
 
     const renderItem = React.useCallback(({ item }) => (
-        <TouchableOpacity style={styles.item} onPress={() => { router.push(`/current/[subtopicId]}`) }}>
+        <TouchableOpacity style={styles.item} onPress={() => {
+            router.push({
+                pathname: `/current/subTopic/${item?.id}`, params: {
+                    title: item.title,
+                    summary: item.summary,
+                }
+            })
+        }}>
             <Text style={styles.date}>{item.date}</Text>
             <Text style={styles.title}>{item.title}</Text>
             <Text style={styles.source}>Source: {item.source}</Text>
@@ -31,7 +37,7 @@ const EditorialAnalysis = (props: Props) => {
         <FlatList
             data={data}
             renderItem={renderItem}
-            keyExtractor={(item) => item.key}
+            keyExtractor={(item) => item.id}
             contentContainerStyle={styles.listContent}
             initialNumToRender={10}
             maxToRenderPerBatch={10}
