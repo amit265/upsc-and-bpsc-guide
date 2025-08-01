@@ -11,14 +11,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const Index = () => {
   const { topicId, subtopicId } = useLocalSearchParams();
   const subtopicData = menuData.find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
-  const newsData = Object.entries(dailyNews).flatMap(([date, articles]) =>
-    articles.map(article => ({
-      ...article,
-      date,
-      key: `${date}-${article.title}`, // unique key
-    }))
-  );
-
+  
 
   // console.log("newsData:", newsData);
 
@@ -42,7 +35,7 @@ const Index = () => {
   return (
     <SafeScreen>
       <Text style={styles.header}>{subtopicData.title}</Text>
-      {subtopicId === newsData[0].topic && <DailyArticles data={newsData} />}
+      {subtopicId === dailyNews[0].topic && <DailyArticles data={dailyNews} />}
       {subtopicId === editorialData[0].topic && <EditorialAnalysis data={editorialData} />}
 
 

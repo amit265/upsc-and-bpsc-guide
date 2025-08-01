@@ -14,17 +14,18 @@
         "id": "monthly",
         "title": "Monthly Compilations"
       },
-      {
-        "id": "vocabulary",
-        "title": "Vocabulary Builder"
-      },
+
       {
         "id": "schemes",
         "title": "Government Schemes"
       },
       {
-        "id": "debates",
-        "title": "Important Debates"
+        "id": "issues-in-news",
+        "title": "Issues in News"
+      },
+      {
+        "id": "vocabulary",
+        "title": "Vocabulary Builder"
       }
     ]
   },
@@ -60,9 +61,12 @@
         "id": "art-culture",
         "title": "Art & Culture"
       },
+
+
+
       {
-        "id": "ca",
-        "title": "Current Affairs"
+        "id": "notes",
+        "title": "Revision Notes"
       },
       {
         "id": "pyq",
@@ -73,8 +77,8 @@
         "title": "Mock Tests"
       },
       {
-        "id": "notes",
-        "title": "Revision Notes"
+        "id": "syllabus",
+        "title": "Syllabus & cutoff analysis"
       },
       {
         "id": "books",
@@ -113,6 +117,14 @@
       {
         "id": "answer-writing",
         "title": "Answer Writing"
+      },
+      {
+        "id": "syllabus",
+        "title": "Syllabus & cutoff analysis"
+      },
+      {
+        "id": "books",
+        "title": "Important Books"
       }
     ]
   },
@@ -133,7 +145,7 @@
         "title": "Yojana & Kurukshetra"
       },
       {
-        "id": "survey",
+        "id": "economic-survey",
         "title": "Economic Survey"
       },
       {
@@ -161,9 +173,14 @@
         "title": "Judgments"
       },
       {
+        "id": "committees",
+        "title": "Committees & Commissions"
+      },
+      {
         "id": "misc",
         "title": "Misc Resources"
       }
     ]
   }
+
 ]

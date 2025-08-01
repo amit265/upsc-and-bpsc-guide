@@ -1,3 +1,4 @@
+import { looksLikeMarkdown } from '@/services/lookslikemarkdown';
 import { useLocalSearchParams } from 'expo-router';
 import React, { useRef, useState } from 'react';
 import { Animated, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -109,7 +110,7 @@ const SubTopics = () => {
 
             <Animated.View
                 style={{
-                    
+
                     height: 4,
                     width: safeScrollProgress.interpolate({
                         inputRange: [0, 1],
@@ -130,9 +131,15 @@ const SubTopics = () => {
                     { useNativeDriver: false }
                 )}>
 
-                <Markdown style={markdownStyles}>
-                    {String(summary)}
-                </Markdown>
+                {
+                    looksLikeMarkdown(summary) ? (
+                        <Markdown style={markdownStyles}>
+                            {summary}
+                        </Markdown>
+                    ) : (
+                        <Text style={styles.summary}>{summary}</Text>
+                    )
+                }
             </ScrollView>
         </View>
     );
@@ -150,7 +157,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontFamily: "quicksand-bold",
         color: '#1a1a1a',
-        textAlign: "auto",
+        textAlign: "left",
         paddingVertical: 10,
         paddingHorizontal: 20
 

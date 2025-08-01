@@ -22,7 +22,7 @@ const DailyArticles = (props: Props) => {
             router.push({
                 pathname: `/current/subTopic/${item?.id}`, params: {
                     title: item.title,
-                    summary: item.summary,
+                    summary: encodeURIComponent(item.summary),
                 }
             })
         }}>
