@@ -4,19 +4,7 @@
     "component": "Current",
     "subtopics": [{
         "id": "daily-articles",
-        "title": "Daily Articles",
-        "type": "dated",
-        "entries": [{
-            "date": "2025-07-26",
-            "title": "India signs new environmental treaty",
-            "content": "India signed a treaty focused on..."
-          },
-          {
-            "date": "2025-07-25",
-            "title": "G20 meet updates",
-            "content": "G20 summit concluded with..."
-          }
-        ]
+        "title": "Daily Articles"
       },
       {
         "id": "editorial",
@@ -27,22 +15,12 @@
         "title": "Monthly Compilations"
       },
       {
-        "id": "international",
-        "title": "International Affairs"
+        "id": "vocabulary",
+        "title": "Vocabulary Builder"
       },
       {
         "id": "schemes",
-        "title": "Government Schemes",
-        "type": "static",
-        "entries": [{
-            "title": "PM-KISAN Yojana",
-            "content": "This scheme provides ₹6000/year..."
-          },
-          {
-            "title": "Ayushman Bharat",
-            "content": "It offers ₹5 lakh health cover..."
-          }
-        ]
+        "title": "Government Schemes"
       },
       {
         "id": "debates",

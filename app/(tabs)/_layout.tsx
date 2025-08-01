@@ -65,8 +65,8 @@ const TabsLayout = () => {
         >
             <Tabs.Screen name="home" options={{ title: 'Home' }} />
             <Tabs.Screen name="tests" options={{ title: 'Tests' }} />
-            <Tabs.Screen name="planner" options={{ title: 'Planner' }} />
-            <Tabs.Screen name="forum" options={{ title: 'Forum' }} />
+            {/* <Tabs.Screen name="planner" options={{ title: 'Planner' }} />
+            <Tabs.Screen name="forum" options={{ title: 'Forum' }} /> */}
             <Tabs.Screen name="profile" options={{ title: 'Profile' }} />
 
         </Tabs>

@@ -10,15 +10,15 @@ const EditorialAnalysis = (props: Props) => {
     const { data } = props;
     const router = useRouter();
 
-    console.log("data from category", data);
+    // console.log("data from category", data);
 
 
     const renderItem = React.useCallback(({ item }) => (
         <TouchableOpacity style={styles.item} onPress={() => {
             router.push({
                 pathname: `/current/subTopic/${item?.id}`, params: {
-                    title: item.title,
-                    summary: item.summary,
+                    title: item?.title,
+                    summary: encodeURIComponent(item.summary),
                 }
             })
         }}>
