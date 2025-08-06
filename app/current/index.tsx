@@ -4,14 +4,16 @@ import menuData from "@/assets/data/menu.json";
 import DailyArticles from "@/components/home/DailyArticles";
 import EditorialAnalysis from "@/components/home/EditorialAnalysis";
 import SafeScreen from "@/components/safescreen";
+import { currentDataContext } from "@/context/context";
 import { useLocalSearchParams } from 'expo-router';
-import React from 'react';
+import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const Index = () => {
+  const { currentData, setCurrentData } = useContext(currentDataContext);
+
   const { topicId, subtopicId } = useLocalSearchParams();
   const subtopicData = menuData.find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
-  
 
   // console.log("newsData:", newsData);
 
@@ -35,8 +37,8 @@ const Index = () => {
   return (
     <SafeScreen>
       <Text style={styles.header}>{subtopicData.title}</Text>
-      {subtopicId === dailyNews[0].topic && <DailyArticles data={dailyNews} />}
-      {subtopicId === editorialData[0].topic && <EditorialAnalysis data={editorialData} />}
+      {subtopicId === dailyNews[0].topic && <DailyArticles data={dailyNews} setCurrentData={setCurrentData} />}
+      {subtopicId === editorialData[0].topic && <EditorialAnalysis data={editorialData} setCurrentData={setCurrentData}/>}
 
 
 

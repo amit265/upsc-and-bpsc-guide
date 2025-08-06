@@ -1,12 +1,20 @@
+import { currentDataContext } from '@/context/context';
 import { looksLikeMarkdown } from '@/services/lookslikemarkdown';
 import { useLocalSearchParams } from 'expo-router';
-import React, { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { Animated, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Markdown from "react-native-markdown-display";
 
+
 const SubTopics = () => {
-    const { title, summary: encodedSummary } = useLocalSearchParams();
-    const summary = typeof encodedSummary === 'string' ? decodeURIComponent(encodedSummary) : '';
+    const { currentData } = useContext(currentDataContext);
+    const { title, summary } = currentData || {};
+    console.log("currentData from context:", currentData);
+    console.log("currentData title:", title);
+    console.log("currentData summary:", summary);
+
+    // const { title, summary: encodedSummary } = useLocalSearchParams();
+    // const summary = typeof encodedSummary === 'string' ? decodeURIComponent(encodedSummary) : '';
 
     console.log("uselocalsearchparams", useLocalSearchParams());
 

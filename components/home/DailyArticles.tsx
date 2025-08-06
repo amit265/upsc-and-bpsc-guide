@@ -7,10 +7,10 @@ type Props = {}
 
 const DailyArticles = (props: Props) => {
     // console.log("DailyArticles component rendered with data:", props.data);
-    const { data } = props;
+    const { data, setCurrentData } = props;
     const router = useRouter();
 
-    console.log("data from category", data);
+    // console.log("data from category", data);
 
 
 
@@ -20,11 +20,9 @@ const DailyArticles = (props: Props) => {
     const renderItem = React.useCallback(({ item }) => (
         <TouchableOpacity style={styles.item} onPress={() => {
             router.push({
-                pathname: `/current/subTopic/${item?.id}`, params: {
-                    title: item.title,
-                    summary: encodeURIComponent(item.summary),
-                }
+                pathname: `/current/subTopic/${item?.id}`
             })
+            setCurrentData({ title: item?.title, summary: item?.summary });
         }}>
             <Text style={styles.date}>{item.date}</Text>
             <Text style={styles.title}>{item.title}</Text>
