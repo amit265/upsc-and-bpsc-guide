@@ -1,187 +1,364 @@
-[{
-    "id": "current",
-    "title": "Current Affairs",
-    "component": "Current",
-    "subtopics": [{
-        "id": "daily-articles",
-        "title": "Daily Articles"
-      },
-      {
-        "id": "editorial",
-        "title": "Editorial Analysis"
-      },
-      {
-        "id": "monthly",
-        "title": "Monthly Compilations"
-      },
+{
+  "UPSC": [{
+      "id": "current",
+      "title": "Current Affairs",
+      "component": "Current",
+      "subtopics": [{
+          "id": "daily-articles",
+          "title": "Daily Articles"
+        },
+        {
+          "id": "editorial",
+          "title": "Editorial Analysis"
+        },
+        {
+          "id": "monthly",
+          "title": "Monthly Compilations"
+        },
 
-      {
-        "id": "schemes",
-        "title": "Government Schemes"
-      },
-      {
-        "id": "issues-in-news",
-        "title": "Issues in News"
-      },
-      {
-        "id": "vocabulary",
-        "title": "Vocabulary Builder"
-      }
-    ]
-  },
-  {
-    "id": "prelims",
-    "title": "Prelims",
-    "component": "Prelims",
-    "subtopics": [{
-        "id": "polity",
-        "title": "Polity"
-      },
-      {
-        "id": "history",
-        "title": "History"
-      },
-      {
-        "id": "geography",
-        "title": "Geography"
-      },
-      {
-        "id": "economy",
-        "title": "Economy"
-      },
-      {
-        "id": "sci-tech",
-        "title": "Science & Tech"
-      },
-      {
-        "id": "environment",
-        "title": "Environment"
-      },
-      {
-        "id": "art-culture",
-        "title": "Art & Culture"
-      },
-
-
-
-      {
-        "id": "notes",
-        "title": "Revision Notes"
-      },
-      {
-        "id": "pyq",
-        "title": "Previous Year Questions"
-      },
-
-      {
-        "id": "syllabus",
-        "title": "Syllabus & cutoff analysis"
-      },
-      {
-        "id": "books",
-        "title": "Important Books"
-      },
-      {
+        {
+          "id": "schemes",
+          "title": "Government Schemes"
+        },
+        {
+          "id": "issues-in-news",
+          "title": "Issues in News"
+        },
+        {
+          "id": "vocabulary",
+          "title": "Vocabulary Builder"
+        }
+      ]
+    },
+    {
+      "id": "prelims",
+      "title": "Prelims",
+      "component": "Prelims",
+      "subtopics": [{
+          "id": "polity",
+          "title": "Polity"
+        },
+        {
+          "id": "history",
+          "title": "History"
+        },
+        {
+          "id": "geography",
+          "title": "Geography"
+        },
+        {
+          "id": "economy",
+          "title": "Economy"
+        },
+        {
+          "id": "sci-tech",
+          "title": "Science & Tech"
+        },
+        {
+          "id": "environment",
+          "title": "Environment"
+        },
+        {
+          "id": "art-culture",
+          "title": "Art & Culture"
+        },
+        {
+          "id": "notes",
+          "title": "Revision Notes"
+        },
+        {
+          "id": "pyq",
+          "title": "Previous Year Questions"
+        },
+        {
+          "id": "syllabus",
+          "title": "Syllabus & cutoff analysis"
+        },
+        {
+          "id": "books",
+          "title": "Important Books"
+        },
+        {
           "id": "current-affairs",
           "title": "Current Affairs"
-      }
-    ]
-  },
-  {
-    "id": "mains",
-    "title": "Mains",
-    "component": "Mains",
-    "subtopics": [{
-        "id": "gs1",
-        "title": "G S - 1"
-      },
-      {
-        "id": "gs2",
-        "title": "G S - 2"
-      },
-      {
-        "id": "gs3",
-        "title": "G S - 3"
-      },
-      {
-        "id": "gs4",
-        "title": "G S - 4"
-      },
-      {
-        "id": "essay",
-        "title": "Essay"
-      },
-      {
-        "id": "optional",
-        "title": "Optional Subjects"
-      },
-      {
-        "id": "answer-writing",
-        "title": "Answer Writing"
-      },
-      {
-        "id": "syllabus",
-        "title": "Syllabus & cutoff analysis"
-      },
-      {
-        "id": "books",
-        "title": "Important Books"
-      }
-    ]
-  },
-  {
-    "id": "extra",
-    "title": "Extra",
-    "component": "Extra",
-    "subtopics": [{
-        "id": "constitution",
-        "title": "Constitution of India"
-      },
-      {
-        "id": "ncert",
-        "title": "NCERT Books"
-      },
-      {
-        "id": "yojana",
-        "title": "Yojana & Kurukshetra"
-      },
-      {
-        "id": "economic-survey",
-        "title": "Economic Survey"
-      },
-      {
-        "id": "budget",
-        "title": "Budget"
-      },
-      {
-        "id": "schemes",
-        "title": "Government Schemes"
-      },
-      {
-        "id": "reports",
-        "title": "Important Reports"
-      },
-      {
-        "id": "amendments",
-        "title": "Amendments"
-      },
-      {
-        "id": "bills",
-        "title": "Bills & Acts"
-      },
-      {
-        "id": "judgments",
-        "title": "Judgments"
-      },
-      {
-        "id": "committees",
-        "title": "Committees & Commissions"
-      },
-      {
-        "id": "misc",
-        "title": "Misc Resources"
-      }
-    ]
-  }
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "title": "Mains",
+      "component": "Mains",
+      "subtopics": [{
+          "id": "gs1",
+          "title": "G S - 1"
+        },
+        {
+          "id": "gs2",
+          "title": "G S - 2"
+        },
+        {
+          "id": "gs3",
+          "title": "G S - 3"
+        },
+        {
+          "id": "gs4",
+          "title": "G S - 4"
+        },
+        {
+          "id": "essay",
+          "title": "Essay"
+        },
+        {
+          "id": "optional",
+          "title": "Optional Subjects"
+        },
+        {
+          "id": "answer-writing",
+          "title": "Answer Writing"
+        },
+        {
+          "id": "syllabus",
+          "title": "Syllabus & cutoff analysis"
+        },
+        {
+          "id": "books",
+          "title": "Important Books"
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "title": "Extra",
+      "component": "Extra",
+      "subtopics": [{
+          "id": "constitution",
+          "title": "Constitution of India"
+        },
+        {
+          "id": "ncert",
+          "title": "NCERT Books"
+        },
+        {
+          "id": "yojana",
+          "title": "Yojana & Kurukshetra"
+        },
+        {
+          "id": "economic-survey",
+          "title": "Economic Survey"
+        },
+        {
+          "id": "budget",
+          "title": "Budget"
+        },
+        {
+          "id": "schemes",
+          "title": "Government Schemes"
+        },
+        {
+          "id": "reports",
+          "title": "Important Reports"
+        },
+        {
+          "id": "amendments",
+          "title": "Amendments"
+        },
+        {
+          "id": "bills",
+          "title": "Bills & Acts"
+        },
+        {
+          "id": "judgments",
+          "title": "Judgments"
+        },
+        {
+          "id": "committees",
+          "title": "Committees & Commissions"
+        },
+        {
+          "id": "misc",
+          "title": "Misc Resources"
+        }
+      ]
+    }
 
-]
+  ],
+
+  "BPSC": [{
+      "id": "current",
+      "title": "Current Affairs",
+      "component": "Current",
+      "subtopics": [{
+          "id": "daily-articles",
+          "title": "Daily Articles"
+        },
+        {
+          "id": "editorial",
+          "title": "Editorial Analysis"
+        },
+        {
+          "id": "monthly",
+          "title": "Monthly Compilations"
+        },
+
+        {
+          "id": "schemes",
+          "title": "Government Schemes"
+        },
+        {
+          "id": "issues-in-news",
+          "title": "Issues in News"
+        },
+        {
+          "id": "vocabulary",
+          "title": "Vocabulary Builder"
+        }
+      ]
+    },
+    {
+      "id": "prelims",
+      "title": "Prelims",
+      "component": "Prelims",
+      "subtopics": [{
+          "id": "polity",
+          "title": "Polity"
+        },
+        {
+          "id": "history",
+          "title": "History"
+        },
+        {
+          "id": "geography",
+          "title": "Geography"
+        },
+        {
+          "id": "economy",
+          "title": "Economy"
+        },
+        {
+          "id": "sci-tech",
+          "title": "Science & Tech"
+        },
+        {
+          "id": "environment",
+          "title": "Environment"
+        },
+        {
+          "id": "art-culture",
+          "title": "Art & Culture"
+        },
+        {
+          "id": "notes",
+          "title": "Revision Notes"
+        },
+        {
+          "id": "pyq",
+          "title": "Previous Year Questions"
+        },
+        {
+          "id": "syllabus",
+          "title": "Syllabus & cutoff analysis"
+        },
+        {
+          "id": "books",
+          "title": "Important Books"
+        },
+        {
+          "id": "current-affairs",
+          "title": "Current Affairs"
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "title": "Mains",
+      "component": "Mains",
+      "subtopics": [{
+          "id": "gs1",
+          "title": "G S - 1"
+        },
+        {
+          "id": "gs2",
+          "title": "G S - 2"
+        },
+
+        {
+          "id": "essay",
+          "title": "Essay"
+        },
+        {
+          "id": "optional",
+          "title": "Optional Subjects"
+        },
+        {
+          "id": "answer-writing",
+          "title": "Answer Writing"
+        },
+        {
+          "id": "syllabus",
+          "title": "Syllabus & cutoff analysis"
+        },
+        {
+          "id": "books",
+          "title": "Important Books"
+        }
+      ]
+    },
+    {
+      "id": "extra",
+      "title": "Extra",
+      "component": "Extra",
+      "subtopics": [{
+          "id": "constitution",
+          "title": "Constitution of India"
+        },
+        {
+          "id": "ncert",
+          "title": "NCERT Books"
+        },
+        {
+          "id": "yojana",
+          "title": "Yojana & Kurukshetra"
+        },
+        {
+          "id": "economic-survey",
+          "title": "Economic Survey"
+        },
+        {
+          "id": "budget",
+          "title": "Budget"
+        },
+        {
+          "id": "schemes",
+          "title": "Government Schemes"
+        },
+        {
+          "id": "reports",
+          "title": "Important Reports"
+        },
+        {
+          "id": "amendments",
+          "title": "Amendments"
+        },
+        {
+          "id": "bills",
+          "title": "Bills & Acts"
+        },
+        {
+          "id": "judgments",
+          "title": "Judgments"
+        },
+        {
+          "id": "committees",
+          "title": "Committees & Commissions"
+        },
+        {
+          "id": "misc",
+          "title": "Misc Resources"
+        }
+      ]
+    }
+
+  ]
+
+
+}

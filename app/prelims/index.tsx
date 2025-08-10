@@ -1,9 +1,8 @@
-import menuData from "@/assets/data/menu.json";
 import dailyNews from "@/assets/data/current/daily_news.json";
+import menuData from "@/assets/data/menu.json";
 import { getPrelimsCurrentAffairs } from "@/utils/getPrelimsCurrentAffairs";
 
 import artCulture from "@/assets/data/prelims/art-culture.json";
-import currentAffairs from "@/assets/data/prelims/current-affairs.json";
 import economy from "@/assets/data/prelims/economy.json";
 import environment from "@/assets/data/prelims/environment.json";
 import geography from "@/assets/data/prelims/geography.json";
@@ -43,10 +42,11 @@ const topicDataMap = {
 const Index = () => {
   const { setCurrentData } = useContext(currentDataContext);
 
-  const { topicId, subtopicId } = useLocalSearchParams();
+  const { topicId, subtopicId, selectedExam } = useLocalSearchParams();
+  
   console.log("useLocalSearchParams: from subtopic", useLocalSearchParams());
 
-  const subtopicData = menuData.find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
+  const subtopicData = menuData[selectedExam].find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
 
   // console.log("newsData:", newsData);
   if (!subtopicData) {

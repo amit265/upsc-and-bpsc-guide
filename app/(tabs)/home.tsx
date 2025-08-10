@@ -1,35 +1,33 @@
+import React, { useState } from 'react';
+import { ScrollView, View } from 'react-native';
+import SafeScreen from '@/components/safescreen';
+import Header from '@/components/home/Header';
+import menuData from "@/assets/data/menu.json";
+
 import Current from '@/components/home/Current';
 import Extra from '@/components/home/Extra';
-import Header from '@/components/home/Header';
 import Mains from '@/components/home/Mains';
 import Prelims from '@/components/home/Prelims';
-import SafeScreen from '@/components/safescreen';
-import menuData from "@/assets/data/menu.json";
-import React from 'react';
-import { ScrollView, StyleSheet, View } from 'react-native';
+
+const componentMap = { Current, Prelims, Mains, Extra };
+
 const HomeScreen = () => {
-
-
+  const [selectedExam, setSelectedExam] = useState("UPSC");
 
   return (
     <SafeScreen>
-              <Header title="UPSC" />
+      <Header selectedExam={selectedExam} setSelectedExam={setSelectedExam} />
 
-      <ScrollView showsVerticalScrollIndicator = {false}>
-
-        {/* main body */}
-
-        <View style={{ flex: 1, }}>
-
-          <Current data={menuData[0]} />
-          <Prelims data={menuData[1]} />
-          <Mains data={menuData[2]} />
-          <Extra data={menuData[3]} />
-
+      <ScrollView showsVerticalScrollIndicator={false}>
+        <View style={{ flex: 1 }}>
+          {menuData[selectedExam].map((section, index) => {
+            const SectionComponent = componentMap[section.component];
+            return <SectionComponent key={index} data={section} selectedExam={selectedExam}/>;
+          })}
         </View>
       </ScrollView>
-
-    </SafeScreen>);
+    </SafeScreen>
+  );
 };
 
 export default HomeScreen;

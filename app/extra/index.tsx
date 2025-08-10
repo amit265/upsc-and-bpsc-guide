@@ -39,10 +39,10 @@ const topicDataMap = {
 const Index = () => {
   const { setCurrentData } = useContext(currentDataContext);
 
-  const { topicId, subtopicId } = useLocalSearchParams();
+  const { topicId, subtopicId, selectedExam } = useLocalSearchParams();
   console.log("useLocalSearchParams: from subtopic", useLocalSearchParams());
 
-  const subtopicData = menuData.find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
+  const subtopicData = menuData[selectedExam].find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
 
   // console.log("newsData:", newsData);
   if (!subtopicData) {

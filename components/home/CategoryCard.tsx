@@ -32,7 +32,7 @@ const getColorFromTitle = (title) => {
 
 
 
-const CategoryCard = ({ data }) => {
+const CategoryCard = ({ data, selectedExam }) => {
   const category = data?.subtopics || [];
   const router = useRouter();
   // console.log("CategoryCard data:", data); // Debugging log to check the data structure
@@ -47,7 +47,7 @@ const CategoryCard = ({ data }) => {
     <View style={styles.container}>
       {category.map((item) => (
         <View key={item?.id} style={styles.card}>
-          <TouchableOpacity onPress={() => { router.push({ pathname: `/${data?.id}`, params: { subtopicId: item?.id, topicId: data?.id } }) }} style={[styles.iconTile, { backgroundColor: getColorFromTitle(item?.title) }]}>
+          <TouchableOpacity onPress={() => { router.push({ pathname: `/${data?.id}`, params: { subtopicId: item?.id, topicId: data?.id, selectedExam } }) }} style={[styles.iconTile, { backgroundColor: getColorFromTitle(item?.title) }]}>
             <Text style={styles.iconText}>
               {item?.title
                 .split(' ')

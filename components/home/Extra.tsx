@@ -2,13 +2,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import CategoryCard from './CategoryCard';
 
-const Extra = ({ data }) => {
-  const { title, subtopics } = data;
+const Extra = ({ data, selectedExam }) => {
+  const { title } = data;
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
-      <CategoryCard data={data} />
+      <CategoryCard data={data} selectedExam={selectedExam} />
     </View>
   );
 };
