@@ -1,0 +1,123 @@
+[
+    {
+      "id": "2025-08-01-001",
+      "title": "Dwindling Public Trust in Election Commission of India",
+      "date": "2025-08-01",
+      "end_date": "2026-02-01",
+      "summary": "Concerns are growing over the impartiality and transparency of the Election Commission of India following allegations of bias, delayed action on complaints, and opaque decision-making processes. Civil society groups have called for reforms to strengthen institutional independence.",
+      "source": "The Hindu",
+      "tags": ["ECI", "democracy", "elections"],
+      "status": "active",
+      "subtopic": "Polity",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-07-28-002",
+      "title": "India’s Water Security Crisis",
+      "date": "2025-07-28",
+      "end_date": "2026-01-28",
+      "summary": "Groundwater depletion, erratic monsoons, and overexploitation of rivers have pushed several states towards acute water shortages. Experts are warning of possible water wars between states if urgent action is not taken.",
+      "source": "Down To Earth",
+      "tags": ["water crisis", "climate change", "resources"],
+      "status": "active",
+      "subtopic": "Geography",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-08-03-003",
+      "title": "Digital Privacy Under Threat",
+      "date": "2025-08-03",
+      "end_date": "2026-02-03",
+      "summary": "Privacy advocates have raised alarms about the new Data Surveillance Act, which expands government powers to collect and store personal digital data without adequate oversight.",
+      "source": "Indian Express",
+      "tags": ["privacy", "technology", "data protection"],
+      "status": "active",
+      "subtopic": "Science and Tech",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-07-25-004",
+      "title": "Stalled Agricultural Reforms",
+      "date": "2025-07-25",
+      "end_date": "2026-01-25",
+      "summary": "Negotiations between farmers' unions and the government over promised agricultural reforms have reached a deadlock. Protests continue in multiple states demanding guaranteed MSP and debt relief.",
+      "source": "The Wire",
+      "tags": ["agriculture", "farmers", "policy"],
+      "status": "active",
+      "subtopic": "Indian Economy",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-08-02-005",
+      "title": "Rising Air Pollution in Indian Cities",
+      "date": "2025-08-02",
+      "end_date": "2026-02-02",
+      "summary": "Air quality levels in several metro cities have remained above safe limits for weeks. The situation has prompted renewed calls for stricter emission controls and public transport upgrades.",
+      "source": "The Times of India",
+      "tags": ["pollution", "environment", "health"],
+      "status": "active",
+      "subtopic": "Environment",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-07-29-006",
+      "title": "Judicial Backlog and Delayed Justice",
+      "date": "2025-07-29",
+      "end_date": "2026-01-29",
+      "summary": "With over 50 million pending cases in Indian courts, judicial delays have reached a crisis point. Legal experts are calling for major procedural reforms and increased judge appointments.",
+      "source": "Bar and Bench",
+      "tags": ["judiciary", "legal system", "justice"],
+      "status": "active",
+      "subtopic": "Polity",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-08-04-007",
+      "title": "India’s Energy Transition Challenges",
+      "date": "2025-08-04",
+      "end_date": "2026-02-04",
+      "summary": "India’s commitment to achieving net-zero emissions by 2070 faces hurdles, including coal dependency, financing renewable projects, and grid infrastructure upgrades.",
+      "source": "Business Standard",
+      "tags": ["energy", "renewable", "climate"],
+      "status": "active",
+      "subtopic": "Economy",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-07-26-008",
+      "title": "Rising Cybercrime Incidents",
+      "date": "2025-07-26",
+      "end_date": "2026-01-26",
+      "summary": "Cybercrime cases, including financial frauds, ransomware attacks, and identity theft, have surged by 45% year-on-year. Experts urge stronger cybersecurity infrastructure.",
+      "source": "Hindustan Times",
+      "tags": ["cybersecurity", "crime", "technology"],
+      "status": "active",
+      "subtopic": "Science and Tech",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-08-05-009",
+      "title": "Border Tensions with China",
+      "date": "2025-08-05",
+      "end_date": "2026-02-05",
+      "summary": "Fresh skirmishes in Eastern Ladakh have reignited concerns over the India-China border dispute. Both nations have increased military presence along sensitive sectors.",
+      "source": "The Print",
+      "tags": ["India-China", "defense", "geopolitics"],
+      "status": "active",
+      "subtopic": "International Relations",
+      "topic": "issues-in-news"
+    },
+    {
+      "id": "2025-07-30-010",
+      "title": "Public Healthcare System Strain",
+      "date": "2025-07-30",
+      "end_date": "2026-01-30",
+      "summary": "Overcrowding in public hospitals and shortage of doctors are straining India's healthcare system. Calls for systemic reforms and increased health spending are growing louder.",
+      "source": "The Hindu",
+      "tags": ["healthcare", "public health", "policy"],
+      "status": "active",
+      "subtopic": "Social Issues",
+      "topic": "issues-in-news"
+    }
+  ]
+  

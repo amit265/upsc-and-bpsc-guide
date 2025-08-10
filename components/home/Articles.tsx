@@ -5,7 +5,7 @@ import { FlatList, StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 type Props = {}
 
-const DailyArticles = (props: Props) => {
+const Articles = (props: Props) => {
     // console.log("DailyArticles component rendered with data:", props.data);
     const { data, setCurrentData } = props;
     const router = useRouter();
@@ -22,12 +22,14 @@ const DailyArticles = (props: Props) => {
             router.push({
                 pathname: `/current/subTopic/${item?.id}`
             })
-            setCurrentData({ title: item?.title, summary: item?.summary });
+            setCurrentData({ title: item?.title, summary: item?.summary, meaning: item?.meaning, usages: item?.usages, synonyms: item?.synonyms, antonyms: item?.antonyms, partOfSpeech: item?.partOfSpeech });
         }}>
-            <Text style={styles.date}>{item.date}</Text>
-            <Text style={styles.title}>{item.title}</Text>
-            <Text style={styles.source}>Source: {item.source}</Text>
-            <Text style={styles.tags}>Tags: {item.tags.join(', ')}</Text>
+            <Text style={styles.date}>{item?.date}</Text>
+            <Text style={styles.title}>{item?.id[item?.id.length - 2] + item?.id[item?.id.length - 1] + ". " + item?.title}</Text>
+            {item?.source && <Text style={styles.source}>Source: {item?.source}</Text>}
+            {item?.tags && <Text style={styles.tags}>Tags: {item?.tags.join(', ')}</Text>}
+            {item?.meaning && <Text style={styles.source}>Meaning: {item?.meaning}</Text>}
+
         </TouchableOpacity>
     ), []);
 
@@ -49,7 +51,7 @@ const DailyArticles = (props: Props) => {
     )
 }
 
-export default React.memo(DailyArticles);
+export default React.memo(Articles);
 
 const styles = StyleSheet.create({
     container: {

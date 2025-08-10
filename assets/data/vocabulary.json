@@ -1,0 +1,224 @@
+[
+    {
+      "id": "2025-08-05-001",
+      "title": "Abate",
+      "partOfSpeech": "verb",
+      "meaning": "To become less intense or widespread.",
+      "usages": "The storm began to abate after several hours.",
+      "synonyms": ["diminish", "decrease", "subside"],
+      "antonyms": ["intensify", "increase"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-002",
+      "title": "Benevolent",
+      "partOfSpeech": "adjective",
+      "meaning": "Well meaning and kindly.",
+      "usages": "She was known for her benevolent attitude toward the less fortunate.",
+      "synonyms": ["kind", "charitable", "compassionate"],
+      "antonyms": ["malevolent", "unkind"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-003",
+      "title": "Cacophony",
+      "partOfSpeech": "noun",
+      "meaning": "A harsh, discordant mixture of sounds.",
+      "usages": "The cacophony of horns filled the busy street.",
+      "synonyms": ["din", "racket", "noise"],
+      "antonyms": ["harmony", "melody"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-004",
+      "title": "Debilitate",
+      "partOfSpeech": "verb",
+      "meaning": "To make someone weak and infirm.",
+      "usages": "The long illness had debilitated him.",
+      "synonyms": ["weaken", "enfeeble", "sap"],
+      "antonyms": ["strengthen", "fortify"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-005",
+      "title": "Eloquent",
+      "partOfSpeech": "adjective",
+      "meaning": "Fluent or persuasive in speaking or writing.",
+      "usages": "The lawyer’s eloquent speech swayed the jury.",
+      "synonyms": ["articulate", "expressive", "persuasive"],
+      "antonyms": ["inarticulate", "mute"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-006",
+      "title": "Frugal",
+      "partOfSpeech": "adjective",
+      "meaning": "Economical in use or expenditure.",
+      "usages": "They lived a frugal lifestyle to save money.",
+      "synonyms": ["thrifty", "economical", "sparing"],
+      "antonyms": ["extravagant", "wasteful"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-007",
+      "title": "Garrulous",
+      "partOfSpeech": "adjective",
+      "meaning": "Excessively talkative, especially on trivial matters.",
+      "usages": "The garrulous host kept the guests entertained for hours.",
+      "synonyms": ["chatty", "loquacious", "talkative"],
+      "antonyms": ["taciturn", "reticent"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-008",
+      "title": "Hapless",
+      "partOfSpeech": "adjective",
+      "meaning": "Unfortunate; having bad luck.",
+      "usages": "The hapless traveler missed his flight twice.",
+      "synonyms": ["unlucky", "ill-fated", "jinxed"],
+      "antonyms": ["fortunate", "lucky"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-009",
+      "title": "Impeccable",
+      "partOfSpeech": "adjective",
+      "meaning": "In accordance with the highest standards; faultless.",
+      "usages": "Her impeccable manners impressed everyone.",
+      "synonyms": ["flawless", "perfect", "immaculate"],
+      "antonyms": ["flawed", "imperfect"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-05-010",
+      "title": "Juxtapose",
+      "partOfSpeech": "verb",
+      "meaning": "To place things side by side for comparison or contrast.",
+      "usages": "The exhibition juxtaposes modern art with classical works.",
+      "synonyms": ["compare", "contrast", "align"],
+      "antonyms": ["separate", "isolate"],
+      "date": "2025-08-05",
+      "topic": "vocabulary-builder"
+    },
+  
+    {
+      "id": "2025-08-04-001",
+      "title": "Keen",
+      "partOfSpeech": "adjective",
+      "meaning": "Having or showing eagerness or enthusiasm.",
+      "usages": "She has a keen interest in environmental issues.",
+      "synonyms": ["eager", "enthusiastic", "avid"],
+      "antonyms": ["apathetic", "indifferent"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-002",
+      "title": "Lethargic",
+      "partOfSpeech": "adjective",
+      "meaning": "Affected by lethargy; sluggish and apathetic.",
+      "usages": "The hot weather made him feel lethargic.",
+      "synonyms": ["sluggish", "inactive", "listless"],
+      "antonyms": ["energetic", "active"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-003",
+      "title": "Meticulous",
+      "partOfSpeech": "adjective",
+      "meaning": "Showing great attention to detail; very careful and precise.",
+      "usages": "He was meticulous in his research work.",
+      "synonyms": ["careful", "precise", "thorough"],
+      "antonyms": ["careless", "sloppy"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-004",
+      "title": "Nefarious",
+      "partOfSpeech": "adjective",
+      "meaning": "Wicked or criminal.",
+      "usages": "The villain's nefarious plan was foiled.",
+      "synonyms": ["evil", "wicked", "villainous"],
+      "antonyms": ["virtuous", "honorable"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-005",
+      "title": "Obstinate",
+      "partOfSpeech": "adjective",
+      "meaning": "Stubbornly refusing to change one's opinion.",
+      "usages": "The obstinate child refused to eat vegetables.",
+      "synonyms": ["stubborn", "inflexible", "unyielding"],
+      "antonyms": ["flexible", "agreeable"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-006",
+      "title": "Pragmatic",
+      "partOfSpeech": "adjective",
+      "meaning": "Dealing with things sensibly and realistically.",
+      "usages": "She took a pragmatic approach to problem-solving.",
+      "synonyms": ["practical", "realistic", "sensible"],
+      "antonyms": ["idealistic", "impractical"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-007",
+      "title": "Quell",
+      "partOfSpeech": "verb",
+      "meaning": "To put an end to, typically by force.",
+      "usages": "Police were called to quell the disturbance.",
+      "synonyms": ["suppress", "subdue", "end"],
+      "antonyms": ["incite", "provoke"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-008",
+      "title": "Resilient",
+      "partOfSpeech": "adjective",
+      "meaning": "Able to recover quickly from difficulties.",
+      "usages": "Children are often more resilient than adults realize.",
+      "synonyms": ["tough", "hardy", "adaptable"],
+      "antonyms": ["fragile", "vulnerable"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-009",
+      "title": "Scrutinize",
+      "partOfSpeech": "verb",
+      "meaning": "To examine closely and thoroughly.",
+      "usages": "The detective scrutinized the crime scene.",
+      "synonyms": ["inspect", "examine", "analyze"],
+      "antonyms": ["ignore", "neglect"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    },
+    {
+      "id": "2025-08-04-010",
+      "title": "Tenacious",
+      "partOfSpeech": "adjective",
+      "meaning": "Holding firmly; persistent.",
+      "usages": "Her tenacious spirit helped her achieve her goals.",
+      "synonyms": ["persistent", "determined", "resolute"],
+      "antonyms": ["weak", "irresolute"],
+      "date": "2025-08-04",
+      "topic": "vocabulary-builder"
+    }
+  ]
+  

@@ -1,0 +1,43 @@
+[
+    {
+      "id": "scheme-001",
+      "title": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "date": "2019-02-24",
+      "summary": "### 🌾 Objective\nProvide income support of ₹6,000 per year to small and marginal farmers, payable in three equal installments.\n\n**Eligibility:**\n- Small & marginal farmers owning up to 2 hectares of cultivable land.\n- Excludes institutional landholders and high-income individuals.\n\n**Impact:**\nOver 11 crore farmers have benefited since launch.\n\n📌 _Direct cash transfer aimed at improving farm income stability._",
+      "source": "Ministry of Agriculture & Farmers Welfare",
+      "tags": ["agriculture", "farmers", "income support"],
+      "subtopic": "Agriculture",
+      "topic": "government-schemes"
+    },
+    {
+      "id": "scheme-002",
+      "title": "Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+      "date": "2018-09-23",
+      "summary": "### 🏥 Objective\nProvide free health coverage of up to ₹5 lakh per family per year for secondary and tertiary care hospitalization.\n\n**Coverage:**\n- Over 10.74 crore poor and vulnerable families.\n- Cashless and paperless access at empaneled hospitals.\n\n**Key Benefits:**\n- Covers pre-existing conditions.\n- Nationwide portability.\n\n💡 _Largest government-funded healthcare program in the world._",
+      "source": "Ministry of Health & Family Welfare",
+      "tags": ["healthcare", "insurance", "poverty alleviation"],
+      "subtopic": "Health",
+      "topic": "government-schemes"
+    },
+    {
+      "id": "scheme-003",
+      "title": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "date": "2016-05-01",
+      "summary": "### 🔥 Objective\nProvide LPG connections to women from Below Poverty Line (BPL) households to replace unsafe cooking fuels.\n\n**Features:**\n- Free LPG connection with financial assistance.\n- Targeting rural and remote areas.\n\n**Impact:**\nOver 9 crore connections released.\n\n📢 _Aims to improve health and reduce indoor air pollution._",
+      "source": "Ministry of Petroleum & Natural Gas",
+      "tags": ["energy", "women empowerment", "health"],
+      "subtopic": "Social Welfare",
+      "topic": "government-schemes"
+    },
+    {
+      "id": "scheme-004",
+      "title": "Atal Pension Yojana (APY)",
+      "date": "2015-05-09",
+      "summary": "### 💰 Objective\nProvide a defined pension to workers in the unorganized sector after retirement.\n\n**Key Points:**\n- Guaranteed pension between ₹1,000 to ₹5,000 per month.\n- Government co-contribution for eligible subscribers.\n\n**Target Group:**\nUnorganized sector workers aged 18–40 years.\n\n📌 _Secures old-age income for low-income earners._",
+      "source": "Ministry of Finance",
+      "tags": ["pension", "social security", "unorganized sector"],
+      "subtopic": "Economy",
+      "topic": "government-schemes"
+    }
+  ]
+  

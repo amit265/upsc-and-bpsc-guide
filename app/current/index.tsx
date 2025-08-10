@@ -1,30 +1,35 @@
 import dailyNews from "@/assets/data/daily_news.json";
 import editorialData from "@/assets/data/editorial_analysis.json";
+import governmentSchemes from "@/assets/data/government_schemes.json";
+import issuesInNews from "@/assets/data/issuesInNews.json";
 import menuData from "@/assets/data/menu.json";
-import DailyArticles from "@/components/home/DailyArticles";
-import EditorialAnalysis from "@/components/home/EditorialAnalysis";
+import vocabulary from "@/assets/data/vocabulary.json";
+import Articles from "@/components/home/Articles";
 import SafeScreen from "@/components/safescreen";
 import { currentDataContext } from "@/context/context";
 import { useLocalSearchParams } from 'expo-router';
 import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+const topicDataMap = {
+  "daily-articles": dailyNews,
+  "editorial": editorialData,
+  "schemes": governmentSchemes,
+  "issues-in-news": issuesInNews,
+  "vocabulary": vocabulary,
+  "monthly": dailyNews, // auto-updates each month
+
+};
+
 const Index = () => {
-  const { currentData, setCurrentData } = useContext(currentDataContext);
+  const { setCurrentData } = useContext(currentDataContext);
 
   const { topicId, subtopicId } = useLocalSearchParams();
+  console.log("useLocalSearchParams: from subtopic", useLocalSearchParams());
+
   const subtopicData = menuData.find(item => item?.id === topicId)?.subtopics?.find(sub => sub.id === subtopicId);
 
   // console.log("newsData:", newsData);
-
-  if (!topicId || !subtopicId) {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.header}>Topic or Subtopic not found</Text>
-      </View>
-    );
-  }
-
   if (!subtopicData) {
     return (
       <View style={styles.container}>
@@ -33,13 +38,22 @@ const Index = () => {
     );
   }
 
+  const data = topicDataMap[subtopicId];
+
+  console.log("data for subtopic:", data);
+
+  if (!data) {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.header}>No data for this subtopic</Text>
+      </View>
+    );
+  }
 
   return (
     <SafeScreen>
       <Text style={styles.header}>{subtopicData.title}</Text>
-      {subtopicId === dailyNews[0].topic && <DailyArticles data={dailyNews} setCurrentData={setCurrentData} />}
-      {subtopicId === editorialData[0].topic && <EditorialAnalysis data={editorialData} setCurrentData={setCurrentData}/>}
-
+      <Articles data={data} setCurrentData={setCurrentData} />
 
 
 

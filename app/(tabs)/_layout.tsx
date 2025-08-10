@@ -20,7 +20,6 @@ const TabsLayout = () => {
                     borderTopRightRadius: 20,
                     borderBottomRightRadius: 20,
                     borderBottomLeftRadius: 20,
-
                     height: 60,
                     elevation: 5,
                     marginHorizontal: 10,
