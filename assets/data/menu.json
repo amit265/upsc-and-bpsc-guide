@@ -72,10 +72,7 @@
         "id": "pyq",
         "title": "Previous Year Questions"
       },
-      {
-        "id": "mock",
-        "title": "Mock Tests"
-      },
+
       {
         "id": "syllabus",
         "title": "Syllabus & cutoff analysis"
@@ -83,6 +80,10 @@
       {
         "id": "books",
         "title": "Important Books"
+      },
+      {
+          "id": "current-affairs",
+          "title": "Current Affairs"
       }
     ]
   },

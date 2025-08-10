@@ -1,0 +1,27 @@
+[
+    {
+      "id": "art-001",
+      "title": "Classical Dances of India",
+      "summary": "### 💃 Forms\nBharatanatyam, Kathak, Odissi, etc."
+    },
+    {
+      "id": "art-002",
+      "title": "Indo-Islamic Architecture",
+      "summary": "### 🏛️ Features\nArches, domes, minarets."
+    },
+    {
+      "id": "art-003",
+      "title": "Buddhist Art",
+      "summary": "### 🕉️ Examples\nStupas, Ajanta caves."
+    },
+    {
+      "id": "art-004",
+      "title": "Indian Folk Music",
+      "summary": "### 🎵 Styles\nBaul, Lavani, Bihu."
+    },
+    {
+      "id": "art-005",
+      "title": "UNESCO Heritage Sites in India",
+      "summary": "### 🌏 Examples\nTaj Mahal, Hampi."
+    }
+  ]

@@ -24,7 +24,7 @@ const Articles = (props: Props) => {
             })
             setCurrentData({ title: item?.title, summary: item?.summary, meaning: item?.meaning, usages: item?.usages, synonyms: item?.synonyms, antonyms: item?.antonyms, partOfSpeech: item?.partOfSpeech });
         }}>
-            <Text style={styles.date}>{item?.date}</Text>
+            {item?.date && <Text style={styles.date}>{item?.date}</Text>}
             <Text style={styles.title}>{item?.id[item?.id.length - 2] + item?.id[item?.id.length - 1] + ". " + item?.title}</Text>
             {item?.source && <Text style={styles.source}>Source: {item?.source}</Text>}
             {item?.tags && <Text style={styles.tags}>Tags: {item?.tags.join(', ')}</Text>}
@@ -41,7 +41,7 @@ const Articles = (props: Props) => {
         <FlatList
             data={data}
             renderItem={renderItem}
-            keyExtractor={(item) => item.key}
+            keyExtractor={(item) => item.id + item.date}
             contentContainerStyle={styles.listContent}
             initialNumToRender={10}
             maxToRenderPerBatch={10}

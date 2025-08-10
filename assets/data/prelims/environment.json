@@ -1,0 +1,27 @@
+[
+    {
+      "id": "env-001",
+      "title": "Climate Change",
+      "summary": "### 🌍 Causes\nGHG emissions, deforestation.\n\n### 📚 UPSC Tip\nLink with Paris Agreement."
+    },
+    {
+      "id": "env-002",
+      "title": "Biodiversity Hotspots",
+      "summary": "### 🐾 India’s Hotspots\nHimalaya, Indo-Burma, Sundalands."
+    },
+    {
+      "id": "env-003",
+      "title": "EIA in India",
+      "summary": "### 📝 Process\nAssess environmental impact before projects."
+    },
+    {
+      "id": "env-004",
+      "title": "Renewable Energy in India",
+      "summary": "### ⚡ Sources\nSolar, wind, biomass."
+    },
+    {
+      "id": "env-005",
+      "title": "Plastic Pollution",
+      "summary": "### 🚩 Issues\nMarine pollution, microplastics."
+    }
+  ]

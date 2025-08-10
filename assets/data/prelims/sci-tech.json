@@ -1,0 +1,27 @@
+[
+    {
+      "id": "sci-001",
+      "title": "ISRO's Chandrayaan Missions",
+      "summary": "### 🚀 Overview\nIndia's lunar exploration program.\n\n### 📚 UPSC Tip\nHighlight Chandrayaan-3’s success."
+    },
+    {
+      "id": "sci-002",
+      "title": "CRISPR Technology",
+      "summary": "### 🧬 Definition\nGenome editing tool.\n\n### 🚩 Concerns\nEthics, biosecurity."
+    },
+    {
+      "id": "sci-003",
+      "title": "Artificial Intelligence",
+      "summary": "### 🤖 Applications\nHealthcare, defense, governance."
+    },
+    {
+      "id": "sci-004",
+      "title": "Quantum Computing",
+      "summary": "### 💻 Overview\nNext-gen computation using quantum bits."
+    },
+    {
+      "id": "sci-005",
+      "title": "5G Technology",
+      "summary": "### 📡 Benefits\nHigh-speed internet, IoT expansion."
+    }
+  ]

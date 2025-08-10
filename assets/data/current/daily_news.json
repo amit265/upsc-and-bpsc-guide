@@ -6,7 +6,9 @@
     "source": "The Hindu",
     "tags": ["AI", "policy", "technology"],
     "subtopic": "Science and Tech",
-    "topic": "daily-articles"
+    "topic": "daily-articles",
+    "prelims": true
+
   },
   {
     "id": "2025-07-31-002",

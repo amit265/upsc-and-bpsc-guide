@@ -1,0 +1,44 @@
+[
+    {
+      "id": "prelims-booklist-001",
+      "title": "Polity & Governance",
+      "summary": "### Recommended Books:\n- *Indian Polity* by M. Laxmikanth\n- *Introduction to the Constitution of India* by D.D. Basu\n- NCERT Polity (Class 9–12)"
+    },
+    {
+      "id": "prelims-booklist-002",
+      "title": "History of India & Indian National Movement",
+      "summary": "### Recommended Books:\n- *Ancient India* by R.S. Sharma (Old NCERT)\n- *Medieval India* by Satish Chandra (Old NCERT)\n- *Modern India* by Bipan Chandra\n- Spectrum’s *A Brief History of Modern India*\n- NCERT History (Class 6–12)"
+    },
+    {
+      "id": "prelims-booklist-003",
+      "title": "Geography – Physical, Social & Economic",
+      "summary": "### Recommended Books:\n- NCERT Geography (Class 6–12)\n- *Certificate Physical & Human Geography* by G.C. Leong\n- Oxford School Atlas\n- India Year Book (relevant sections)"
+    },
+    {
+      "id": "prelims-booklist-004",
+      "title": "Economic & Social Development",
+      "summary": "### Recommended Books:\n- *Indian Economy* by Ramesh Singh\n- NCERT Economics (Class 9–12)\n- Economic Survey of India (latest)\n- Budget Highlights"
+    },
+    {
+      "id": "prelims-booklist-005",
+      "title": "Environment & Ecology",
+      "summary": "### Recommended Books:\n- *Environment* by Shankar IAS\n- NCERT Biology (Class 12 chapters on environment)\n- Reports from Ministry of Environment, Forest and Climate Change"
+    },
+    {
+      "id": "prelims-booklist-006",
+      "title": "Science & Technology",
+      "summary": "### Recommended Books:\n- NCERT Science (Class 6–10)\n- NCERT Biology, Physics, Chemistry (Class 11–12 basics)\n- Current developments from The Hindu's S&T section\n- ISRO, DRDO, PIB releases"
+    },import dailyNews from "@/assets/data/daily_news.json";
+    
+    {
+      "id": "prelims-booklist-007",
+      "title": "Current Affairs",
+      "summary": "### Recommended Sources:\n- The Hindu / Indian Express\n- PIB Press Releases\n- Yojana & Kurukshetra Magazines\n- Monthly compilations by coaching institutes"
+    },
+    {
+      "id": "prelims-booklist-008",
+      "title": "CSAT – Comprehension & Reasoning",
+      "summary": "### Recommended Books:\n- *Analytical Reasoning* by M.K. Pandey\n- *Quantitative Aptitude for Competitive Exams* by R.S. Aggarwal\n- Previous years’ UPSC CSAT papers"
+    }
+  ]
+  

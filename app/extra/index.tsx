@@ -12,12 +12,20 @@ import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const topicDataMap = {
-  "daily-articles": dailyNews,
-  "editorial": editorialData,
-  "schemes": governmentSchemes,
-  "issues-in-news": issuesInNews,
-  "vocabulary": vocabulary,
-  "monthly": dailyNews, // auto-updates each month
+  "constitution": dailyNews,
+  "ncert": editorialData,
+  "yojana": governmentSchemes,
+  "economic-survey": issuesInNews,
+  "budget": dailyNews,
+  "schemes": issuesInNews,
+  "reports": vocabulary,
+  "amendments": dailyNews,
+  "bills": dailyNews,
+  "judgments": editorialData,
+  "committees": governmentSchemes,
+  "misc": governmentSchemes,
+
+
 
 };
 

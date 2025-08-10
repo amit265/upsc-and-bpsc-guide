@@ -12,15 +12,18 @@ import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const topicDataMap = {
-  "daily-articles": dailyNews,
-  "editorial": editorialData,
-  "schemes": governmentSchemes,
-  "issues-in-news": issuesInNews,
-  "vocabulary": vocabulary,
-  "monthly": dailyNews, // auto-updates each month
+  "gs1": dailyNews,
+  "gs2": editorialData,
+  "gs3": governmentSchemes,
+  "gs4": issuesInNews,
+  "essay": vocabulary,
+  "optional": issuesInNews,
+  "answer-writing": vocabulary,
+  "syllabus": dailyNews,
+  "books": governmentSchemes,
+
 
 };
-
 const Index = () => {
   const { setCurrentData } = useContext(currentDataContext);
 

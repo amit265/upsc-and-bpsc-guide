@@ -1,23 +1,42 @@
-import dailyNews from "@/assets/data/current/daily_news.json";
-import editorialData from "@/assets/data/current/editorial_analysis.json";
-import governmentSchemes from "@/assets/data/current/government_schemes.json";
-import issuesInNews from "@/assets/data/current/issuesInNews.json";
 import menuData from "@/assets/data/menu.json";
-import vocabulary from "@/assets/data/current/vocabulary.json";
+import dailyNews from "@/assets/data/current/daily_news.json";
+import { getPrelimsCurrentAffairs } from "@/utils/getPrelimsCurrentAffairs";
+
+import artCulture from "@/assets/data/prelims/art-culture.json";
+import currentAffairs from "@/assets/data/prelims/current-affairs.json";
+import economy from "@/assets/data/prelims/economy.json";
+import environment from "@/assets/data/prelims/environment.json";
+import geography from "@/assets/data/prelims/geography.json";
+import history from "@/assets/data/prelims/history.json";
+import polity from "@/assets/data/prelims/polity.json";
+import books from "@/assets/data/prelims/pre-books.json";
+import notes from "@/assets/data/prelims/pre-revision.json";
+import pyq from "@/assets/data/prelims/pyq.json";
+import sciTech from "@/assets/data/prelims/sci-tech.json";
+import syllabus from "@/assets/data/prelims/syllabus.json";
 import Articles from "@/components/home/Articles";
 import SafeScreen from "@/components/safescreen";
 import { currentDataContext } from "@/context/context";
 import { useLocalSearchParams } from 'expo-router';
 import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+const prelimsCurrentAffairs = getPrelimsCurrentAffairs(dailyNews);
+
 
 const topicDataMap = {
-  "daily-articles": dailyNews,
-  "editorial": editorialData,
-  "schemes": governmentSchemes,
-  "issues-in-news": issuesInNews,
-  "vocabulary": vocabulary,
-  "monthly": dailyNews, // auto-updates each month
+  "polity": polity,
+  "history": history,
+  "geography": geography,
+  "economy": economy,
+  "sci-tech": sciTech,
+  "environment": environment,
+  "art-culture": artCulture,
+  "notes": notes,
+  "pyq": pyq,
+  "syllabus": syllabus,
+  "books": books,
+  "current-affairs": prelimsCurrentAffairs,
+
 
 };
 
