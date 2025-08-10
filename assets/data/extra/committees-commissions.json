@@ -1,0 +1,52 @@
+[
+  {
+    "id": "committee-001",
+    "title": "Punchhi Commission",
+    "summary": "### Summary\nReviewed Centre–State relations."
+  },
+  {
+    "id": "committee-002",
+    "title": "Sarkaria Commission",
+    "summary": "### Summary\nRecommended measures to improve federal relations."
+  },
+  {
+    "id": "committee-003",
+    "title": "Mandate Committee",
+    "summary": "### Summary\nSuggested OBC reservation policy."
+  },
+  {
+    "id": "committee-004",
+    "title": "Second Administrative Reforms Commission",
+    "summary": "### Summary\nSuggested governance reforms."
+  },
+  {
+    "id": "committee-005",
+    "title": "Justice Verma Committee",
+    "summary": "### Summary\nRecommended changes in criminal law for women’s safety."
+  },
+  {
+    "id": "committee-006",
+    "title": "NITI Aayog",
+    "summary": "### Summary\nPolicy think tank replacing Planning Commission."
+  },
+  {
+    "id": "committee-007",
+    "title": "K Kasturirangan Committee",
+    "summary": "### Summary\nDrafted National Education Policy."
+  },
+  {
+    "id": "committee-008",
+    "title": "Finance Commission",
+    "summary": "### Summary\nDetermines distribution of tax revenue between Centre and States."
+  },
+  {
+    "id": "committee-009",
+    "title": "Delimitation Commission",
+    "summary": "### Summary\nRedraws boundaries of electoral constituencies."
+  },
+  {
+    "id": "committee-010",
+    "title": "Law Commission of India",
+    "summary": "### Summary\nRecommends legal reforms."
+  }
+]

@@ -28,7 +28,7 @@
       "id": "prelims-booklist-006",
       "title": "Science & Technology",
       "summary": "### Recommended Books:\n- NCERT Science (Class 6–10)\n- NCERT Biology, Physics, Chemistry (Class 11–12 basics)\n- Current developments from The Hindu's S&T section\n- ISRO, DRDO, PIB releases"
-    },import dailyNews from "@/assets/data/daily_news.json";
+    },
     
     {
       "id": "prelims-booklist-007",

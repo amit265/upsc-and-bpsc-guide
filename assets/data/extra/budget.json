@@ -1,0 +1,53 @@
+[
+    {
+      "id": "budget-001",
+      "title": "Union Budget Overview",
+      "summary": "### Highlights\nAnnual financial statement outlining revenue and expenditure."
+    },
+    {
+      "id": "budget-002",
+      "title": "Tax Reforms",
+      "summary": "### Summary\nChanges in direct and indirect taxes."
+    },
+    {
+      "id": "budget-003",
+      "title": "Infrastructure Allocation",
+      "summary": "### Highlights\nFunds for roads, railways, and digital infrastructure."
+    },
+    {
+      "id": "budget-004",
+      "title": "Education and Health Spending",
+      "summary": "### Summary\nBudgetary support for human capital development."
+    },
+    {
+      "id": "budget-005",
+      "title": "Defence Budget",
+      "summary": "### Highlights\nAllocations for modernisation and border security."
+    },
+    {
+      "id": "budget-006",
+      "title": "Agriculture and Rural Development",
+      "summary": "### Summary\nSubsidies, irrigation, and rural employment."
+    },
+    {
+      "id": "budget-007",
+      "title": "Fiscal Deficit Target",
+      "summary": "### Highlights\nPlanned deficit levels for the fiscal year."
+    },
+    {
+      "id": "budget-008",
+      "title": "Green Budget Initiatives",
+      "summary": "### Summary\nClimate change and renewable energy spending."
+    },
+    {
+      "id": "budget-009",
+      "title": "Urban Development",
+      "summary": "### Highlights\nAffordable housing and smart cities mission."
+    },
+    {
+      "id": "budget-010",
+      "title": "MSME Support",
+      "summary": "### Summary\nCredit, subsidies, and market access for MSMEs."
+    }
+  ]
+  

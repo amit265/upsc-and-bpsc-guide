@@ -10,7 +10,7 @@ const SubTopics = () => {
     const { currentData } = useContext(currentDataContext);
     console.log("currentData from context:", currentData);
 
-    const { title, summary, meaning, partOfSpeech, synonyms, antonyms, usages } = currentData || {};
+    const { title, summary, question, hints, answer, tags, difficulty } = currentData || {};
 
     console.log("currentData:", currentData);
 
@@ -115,6 +115,8 @@ const SubTopics = () => {
 
 
 
+
+
             <Animated.View
                 style={{
 
@@ -137,42 +139,59 @@ const SubTopics = () => {
                     [{ nativeEvent: { contentOffset: { y: scrollY } } }],
                     { useNativeDriver: false }
                 )}>
-                {meaning && <View>
-                    <Text style={styles.sectionTitle}>Parts of speech: </Text>
-                    <Text style={styles.summary}>{partOfSpeech || 'No partOfSpeech provided.'}</Text>
 
-                    <Text style={styles.sectionTitle}>Synonyms: </Text>
-                    <Text style={styles.summary}>
-                        {synonyms && synonyms.length > 0
-                            ? synonyms.map((m, index) => (
-                                <Text key={m + index}>
-                                    {m}
-                                    {index < synonyms.length - 1 ? ', ' : ''}
-                                </Text>
-                            ))
-                            : 'No Synonyms provided.'}
-                    </Text>
-                    <Text style={styles.sectionTitle}>Antonyms: </Text>
-                    <Text style={styles.summary}>
-                        {antonyms && antonyms.length > 0
-                            ? antonyms.map((m, index) => (
-                                <Text key={m + index}>
-                                    {m}
-                                    {index < antonyms.length - 1 ? ', ' : ''}
-                                </Text>
-                            ))
-                            : 'No Antonyms provided.'}
-                    </Text>
+                {/* <View>
 
-                    <Text style={styles.sectionTitle}>Meaning: </Text>
-                    <Text style={styles.summary}>
-                        {meaning || 'No meaning provided.'}
-                    </Text>
-                    <Text style={styles.sectionTitle}>Usages: </Text>
-                    <Text style={styles.summary}>
-                        {usages || 'No usages provided.'}
-                    </Text>
-                </View>}
+                    {question && <Text style={styles.sectionTitle}>Questions</Text>}
+
+
+
+
+
+                    {looksLikeMarkdown(question) ? (
+                        <Markdown style={markdownStyles}>
+                            {question}
+                        </Markdown>
+                    ) : (
+                        <Text style={styles.summary}>{question}</Text>
+                    )}
+
+                    {hints && <Text style={styles.sectionTitle}>Hints</Text>}
+                    {looksLikeMarkdown(hints) ? (
+                        <Markdown style={markdownStyles}>
+                            {hints}
+                        </Markdown>
+                    ) : (
+                        <Text style={styles.summary}>{hints}</Text>
+                    )}
+                    {answer && <Text style={styles.sectionTitle}>Answer</Text>}
+                    {looksLikeMarkdown(answer) ? (
+                        <Markdown style={markdownStyles}>
+                            {answer}
+                        </Markdown>
+                    ) : (
+                        <Text style={styles.summary}>{answer}</Text>
+                    )}
+                    {tags && <Text style={styles.sectionTitle}>Tags</Text>}
+                    {looksLikeMarkdown(tags) ? (
+                        <Markdown style={markdownStyles}>
+                            {tags}
+                        </Markdown>
+                    ) : (
+                        <Text style={styles.summary}>{tags}</Text>
+                    )}
+                    {difficulty && <Text style={styles.sectionTitle}>Difficulty</Text>}
+                    {looksLikeMarkdown(difficulty) ? (
+                        <Markdown style={markdownStyles}>
+                            {difficulty}
+                        </Markdown>
+                    ) : (
+                        <Text style={styles.summary}>{difficulty}</Text>
+                    )}
+
+
+                </View> */}
+
                 {
                     looksLikeMarkdown(summary) ? (
                         <Markdown style={markdownStyles}>
@@ -207,7 +226,7 @@ const styles = StyleSheet.create({
         paddingVertical: 10,
         paddingHorizontal: 20,
         backgroundColor: "#f0f0f0",
-      
+
 
 
     },

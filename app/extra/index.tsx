@@ -1,9 +1,16 @@
-import dailyNews from "@/assets/data/current/daily_news.json";
-import editorialData from "@/assets/data/current/editorial_analysis.json";
 import governmentSchemes from "@/assets/data/current/government_schemes.json";
-import issuesInNews from "@/assets/data/current/issuesInNews.json";
+import amendments from "@/assets/data/extra/amendments.json";
+import bills from "@/assets/data/extra/bills-and-acts.json";
+import budget from "@/assets/data/extra/budget.json";
+import committees from "@/assets/data/extra/committees-commissions.json";
+import constitution from "@/assets/data/extra/constitution.json";
+import economicSurvey from "@/assets/data/extra/economic-survey.json";
+import judgments from "@/assets/data/extra/judgments.json";
+import misc from "@/assets/data/extra/misc-resources.json";
+import ncert from "@/assets/data/extra/ncert.json";
+import reports from "@/assets/data/extra/reports.json";
+import yojana from "@/assets/data/extra/yojana.json";
 import menuData from "@/assets/data/menu.json";
-import vocabulary from "@/assets/data/current/vocabulary.json";
 import Articles from "@/components/home/Articles";
 import SafeScreen from "@/components/safescreen";
 import { currentDataContext } from "@/context/context";
@@ -12,18 +19,18 @@ import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const topicDataMap = {
-  "constitution": dailyNews,
-  "ncert": editorialData,
-  "yojana": governmentSchemes,
-  "economic-survey": issuesInNews,
-  "budget": dailyNews,
-  "schemes": issuesInNews,
-  "reports": vocabulary,
-  "amendments": dailyNews,
-  "bills": dailyNews,
-  "judgments": editorialData,
-  "committees": governmentSchemes,
-  "misc": governmentSchemes,
+  "constitution": constitution,
+  "ncert": ncert,
+  "yojana": yojana,
+  "economic-survey": economicSurvey,
+  "budget": budget,
+  "schemes": governmentSchemes,
+  "reports": reports,
+  "amendments": amendments,
+  "bills": bills,
+  "judgments": judgments,
+  "committees": committees,
+  "misc": misc,
 
 
 

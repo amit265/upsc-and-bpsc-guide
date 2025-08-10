@@ -22,7 +22,7 @@ const Articles = (props: Props) => {
             router.push({
                 pathname: `/current/subTopic/${item?.id}`
             })
-            setCurrentData({ title: item?.title, summary: item?.summary, meaning: item?.meaning, usages: item?.usages, synonyms: item?.synonyms, antonyms: item?.antonyms, partOfSpeech: item?.partOfSpeech });
+            setCurrentData({ title: item?.title, summary: item?.summary, meaning: item?.meaning, usages: item?.usages, synonyms: item?.synonyms, antonyms: item?.antonyms, partOfSpeech: item?.partOfSpeech, question: item?.question, answer: item?.modelAnswer, hints: item?.hints, difficulty: item?.difficulty, tags: item?.tags });
         }}>
             {item?.date && <Text style={styles.date}>{item?.date}</Text>}
             <Text style={styles.title}>{item?.id[item?.id.length - 2] + item?.id[item?.id.length - 1] + ". " + item?.title}</Text>

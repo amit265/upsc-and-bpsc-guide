@@ -1,0 +1,53 @@
+[
+    {
+      "id": "eco-survey-001",
+      "title": "GDP Growth Trends",
+      "summary": "### Highlights\nAnalysis of annual GDP growth and sectoral contributions."
+    },
+    {
+      "id": "eco-survey-002",
+      "title": "Agriculture Sector Overview",
+      "summary": "### Summary\nPerformance, reforms, and MSP policy updates."
+    },
+    {
+      "id": "eco-survey-003",
+      "title": "Manufacturing Sector Insights",
+      "summary": "### Highlights\nIndustrial growth trends and challenges."
+    },
+    {
+      "id": "eco-survey-004",
+      "title": "Services Sector Performance",
+      "summary": "### Summary\nContribution of IT, tourism, and finance to GDP."
+    },
+    {
+      "id": "eco-survey-005",
+      "title": "Inflation and Price Stability",
+      "summary": "### Highlights\nCPI and WPI trends and monetary policy measures."
+    },
+    {
+      "id": "eco-survey-006",
+      "title": "Fiscal Deficit Analysis",
+      "summary": "### Summary\nBudgetary balance and government spending."
+    },
+    {
+      "id": "eco-survey-007",
+      "title": "Foreign Trade Review",
+      "summary": "### Highlights\nExport-import data and trade balance."
+    },
+    {
+      "id": "eco-survey-008",
+      "title": "Employment and Labour Market",
+      "summary": "### Summary\nJob creation trends and labour reforms."
+    },
+    {
+      "id": "eco-survey-009",
+      "title": "Infrastructure Development",
+      "summary": "### Highlights\nTransport, energy, and urban development."
+    },
+    {
+      "id": "eco-survey-010",
+      "title": "Sustainable Development Goals",
+      "summary": "### Summary\nProgress on SDGs and environmental commitments."
+    }
+  ]
+  

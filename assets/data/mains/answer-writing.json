@@ -1,0 +1,150 @@
+[
+    {
+      "id": "2025-08-10-001",
+      "title": "Role of Civil Services in a Democracy",
+      "question": "Discuss the role of civil services in a democracy, with reference to India's governance structure. (150 words)",
+      "hints": [
+        "Definition & purpose of civil services",
+        "Constitutional provisions",
+        "Policy implementation and public service delivery",
+        "Challenges",
+        "Reforms"
+      ],
+      "modelAnswer": "### Introduction\nCivil services form the backbone of India's administrative system, ensuring continuity and efficiency in governance.\n\n### Body\n- **Policy Implementation** – Execute laws and schemes.\n- **Maintaining Rule of Law** – Uphold constitutional values.\n- **Crisis Management** – Handle disasters and emergencies.\n- **Public Service Delivery** – Welfare schemes and development projects.\n\n### Conclusion\nA politically neutral, citizen-centric civil service is essential for a vibrant democracy.",
+      "tags": ["GS2", "Polity", "Governance"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2025-08-10-002",
+      "title": "Impact of Climate Change on Indian Agriculture",
+      "question": "How does climate change affect Indian agriculture? Suggest mitigation strategies. (250 words)",
+      "hints": [
+        "Monsoon variability",
+        "Extreme weather events",
+        "Impact on yields",
+        "Climate-resilient crops",
+        "Government policies"
+      ],
+      "modelAnswer": "### Introduction\nClimate change is altering rainfall patterns, temperatures, and pest activity.\n\n### Body\n- **Monsoon Changes** – Delays, unpredictability.\n- **Extreme Events** – Droughts, floods affecting crops.\n- **Pest Infestation** – Higher losses.\n- **Soil Degradation** – Erosion from heavy rains.\n\n### Mitigation\n1. Drought-resistant crops.\n2. Micro-irrigation.\n3. Improved weather forecasting.\n4. Policy incentives for sustainable farming.\n\n### Conclusion\nClimate-smart agriculture ensures food security and resilience.",
+      "tags": ["GS3", "Environment", "Agriculture"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "2025-08-10-003",
+      "title": "Causes of Revolt of 1857",
+      "question": "Examine the political, economic, and social causes of the Revolt of 1857. (150 words)",
+      "hints": [
+        "Political annexations",
+        "Economic exploitation",
+        "Social reforms",
+        "Religious concerns",
+        "Military grievances"
+      ],
+      "modelAnswer": "### Introduction\nThe Revolt of 1857 was the first major challenge to British rule in India.\n\n### Body\n- **Political** – Doctrine of Lapse, dethronement of rulers.\n- **Economic** – Heavy taxation, destruction of handicrafts.\n- **Social/Religious** – Western education, missionary activity.\n- **Military** – Discrimination against Indian soldiers.\n\n### Conclusion\nThough suppressed, it sowed seeds of Indian nationalism.",
+      "tags": ["GS1", "History", "Modern India"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "2025-08-10-004",
+      "title": "Judicial Review in India",
+      "question": "Explain the concept of judicial review in India and its significance in upholding constitutionalism. (150 words)",
+      "hints": [
+        "Definition",
+        "Articles 13, 32, 226",
+        "Landmark cases",
+        "Checks and balances",
+        "Limitations"
+      ],
+      "modelAnswer": "### Introduction\nJudicial review refers to the power of courts to examine legislative and executive actions.\n\n### Body\n- **Constitutional Basis** – Articles 13, 32, 226.\n- **Cases** – Kesavananda Bharati, Indira Gandhi vs Raj Narain.\n- **Importance** – Safeguards fundamental rights, maintains rule of law.\n\n### Conclusion\nIt is vital for preserving the basic structure of the Constitution.",
+      "tags": ["GS2", "Polity", "Judiciary"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2025-08-10-005",
+      "title": "India’s Demographic Dividend",
+      "question": "What is demographic dividend? Discuss the challenges and opportunities it presents for India. (250 words)",
+      "hints": [
+        "Definition",
+        "India’s demographic profile",
+        "Opportunities",
+        "Challenges",
+        "Policy measures"
+      ],
+      "modelAnswer": "### Introduction\nDemographic dividend is the economic growth potential from a higher working-age population.\n\n### Body\n- **Opportunities** – Economic productivity, innovation.\n- **Challenges** – Unemployment, skill gap, regional imbalances.\n- **Measures** – Skill development, job creation, education reform.\n\n### Conclusion\nHarnessing the dividend requires timely policy intervention.",
+      "tags": ["GS1", "Society", "Economy"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2025-08-10-006",
+      "title": "Ethics in Public Administration",
+      "question": "Highlight the importance of ethics in public administration with examples. (150 words)",
+      "hints": [
+        "Definition of ethics",
+        "Values like integrity, transparency",
+        "Case examples",
+        "Impact on governance"
+      ],
+      "modelAnswer": "### Introduction\nEthics guide public servants to act in the public interest.\n\n### Body\n- **Integrity** – Avoid misuse of office.\n- **Transparency** – Build public trust.\n- **Accountability** – Improve efficiency.\n\n### Conclusion\nEthics ensure fair, impartial, and citizen-friendly governance.",
+      "tags": ["GS4", "Ethics", "Governance"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "2025-08-10-007",
+      "title": "Challenges in India’s Federal Structure",
+      "question": "Discuss the major challenges in India’s federal structure. Suggest reforms. (250 words)",
+      "hints": [
+        "Centre-state relations",
+        "Fiscal federalism",
+        "Inter-state disputes",
+        "Role of Governor",
+        "Cooperative federalism"
+      ],
+      "modelAnswer": "### Introduction\nIndia’s federalism blends strong Centre with autonomous states.\n\n### Body\n- **Challenges** – Political centralisation, fiscal imbalance, misuse of Governor’s office.\n- **Reforms** – Strengthen Finance Commission, transparent GST Council.\n\n### Conclusion\nBalanced federalism is essential for unity with diversity.",
+      "tags": ["GS2", "Polity", "Federalism"],
+      "difficulty": "hard"
+    },
+    {
+      "id": "2025-08-10-008",
+      "title": "Sustainable Urban Development",
+      "question": "How can India achieve sustainable urban development? (150 words)",
+      "hints": [
+        "Urbanisation trends",
+        "Challenges",
+        "Sustainability measures",
+        "Government schemes"
+      ],
+      "modelAnswer": "### Introduction\nRapid urbanisation demands sustainable planning.\n\n### Body\n- **Challenges** – Pollution, housing shortage, traffic.\n- **Measures** – Public transport, waste management, green spaces.\n\n### Conclusion\nSustainable cities ensure better quality of life for all.",
+      "tags": ["GS3", "Environment", "Urban Development"],
+      "difficulty": "medium"
+    },
+    {
+      "id": "2025-08-10-009",
+      "title": "Role of Parliament in Ensuring Accountability",
+      "question": "Discuss the role of the Indian Parliament in ensuring executive accountability. (150 words)",
+      "hints": [
+        "Question hour",
+        "Committees",
+        "Motions",
+        "CAG reports"
+      ],
+      "modelAnswer": "### Introduction\nParliament is the supreme legislative body ensuring executive accountability.\n\n### Body\n- **Question Hour** – Ministers answer queries.\n- **Committees** – Scrutinise bills and spending.\n- **CAG Reports** – Financial oversight.\n\n### Conclusion\nParliamentary vigilance strengthens democracy.",
+      "tags": ["GS2", "Polity", "Parliament"],
+      "difficulty": "easy"
+    },
+    {
+      "id": "2025-08-10-010",
+      "title": "Water Crisis in India",
+      "question": "Analyse the causes and solutions for India’s water crisis. (250 words)",
+      "hints": [
+        "Groundwater depletion",
+        "Inefficient irrigation",
+        "Pollution",
+        "Climate change",
+        "Water governance"
+      ],
+      "modelAnswer": "### Introduction\nIndia faces a severe water crisis due to over-extraction and mismanagement.\n\n### Body\n- **Causes** – Overuse in agriculture, pollution, urbanisation.\n- **Solutions** – Rainwater harvesting, drip irrigation, river rejuvenation.\n\n### Conclusion\nIntegrated water management is vital for sustainability.",
+      "tags": ["GS3", "Environment", "Water Resources"],
+      "difficulty": "medium"
+    }
+  ]
+  

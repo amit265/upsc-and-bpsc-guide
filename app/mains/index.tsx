@@ -1,9 +1,13 @@
-import dailyNews from "@/assets/data/current/daily_news.json";
-import editorialData from "@/assets/data/current/editorial_analysis.json";
-import governmentSchemes from "@/assets/data/current/government_schemes.json";
-import issuesInNews from "@/assets/data/current/issuesInNews.json";
+import answerWriting from "@/assets/data/mains/answer-writing.json";
+import essay from "@/assets/data/mains/essay.json";
+import gs1 from "@/assets/data/mains/gs1.json";
+import gs2 from "@/assets/data/mains/gs2.json";
+import gs3 from "@/assets/data/mains/gs3.json";
+import gs4 from "@/assets/data/mains/gs4.json";
+import books from "@/assets/data/mains/mains-books.json";
+import optional from "@/assets/data/mains/optional.json";
+import syllabus from "@/assets/data/mains/syllabus.json";
 import menuData from "@/assets/data/menu.json";
-import vocabulary from "@/assets/data/current/vocabulary.json";
 import Articles from "@/components/home/Articles";
 import SafeScreen from "@/components/safescreen";
 import { currentDataContext } from "@/context/context";
@@ -12,15 +16,15 @@ import React, { useContext } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 const topicDataMap = {
-  "gs1": dailyNews,
-  "gs2": editorialData,
-  "gs3": governmentSchemes,
-  "gs4": issuesInNews,
-  "essay": vocabulary,
-  "optional": issuesInNews,
-  "answer-writing": vocabulary,
-  "syllabus": dailyNews,
-  "books": governmentSchemes,
+  "gs1": gs1,
+  "gs2": gs2,
+  "gs3": gs3,
+  "gs4": gs4,
+  "essay": essay,
+  "optional": optional,
+  "answer-writing": answerWriting,
+  "syllabus": syllabus,
+  "books": books,
 
 
 };
