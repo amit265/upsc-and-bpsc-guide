@@ -25,6 +25,15 @@ const topicDataMap = {
   "answer-writing": answerWriting,
   "syllabus": syllabus,
   "books": books,
+  "bpsc-gs1":   gs1,
+  "bpsc-gs2":   gs2,
+    "hindi": gs3,
+    "bpsc-essay": essay,
+  "bpsc-optional": optional,
+  "bpsc-syllabus": syllabus,
+  "bpsc-books": books,
+  "bpsc-answer-writing": answerWriting,
+  
 
 
 };

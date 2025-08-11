@@ -185,7 +185,7 @@
 
   "BPSC": [{
       "id": "current",
-      "title": "Current Affairs",
+      "title": "Current Affairs (BPSC)",
       "component": "Current",
       "subtopics": [{
           "id": "daily-articles",
@@ -199,10 +199,17 @@
           "id": "monthly",
           "title": "Monthly Compilations"
         },
-
+        {
+          "id": "bihar-current-affairs",
+          "title": "Bihar Current Affairs"
+        },
+        {
+          "id": "schemes-bihar",
+          "title": "Bihar Government Schemes"
+        },
         {
           "id": "schemes",
-          "title": "Government Schemes"
+          "title": "Central Government Schemes"
         },
         {
           "id": "issues-in-news",
@@ -216,27 +223,43 @@
     },
     {
       "id": "prelims",
-      "title": "Prelims",
+      "title": "Prelims (BPSC)",
       "component": "Prelims",
       "subtopics": [{
-          "id": "polity",
-          "title": "Polity"
+          "id": "history",
+          "title": "History of India"
         },
         {
-          "id": "history",
-          "title": "History"
+          "id": "history-bihar",
+          "title": "History of Bihar"
+        },
+        {
+          "id": "polity",
+          "title": "Indian Polity"
+        },
+        {
+          "id": "polity-bihar",
+          "title": "Bihar Polity & Governance"
         },
         {
           "id": "geography",
-          "title": "Geography"
+          "title": "Geography of India"
+        },
+        {
+          "id": "geography-bihar",
+          "title": "Geography of Bihar"
         },
         {
           "id": "economy",
-          "title": "Economy"
+          "title": "Indian Economy"
+        },
+        {
+          "id": "economy-bihar",
+          "title": "Bihar Economy"
         },
         {
           "id": "sci-tech",
-          "title": "Science & Tech"
+          "title": "Science & Technology"
         },
         {
           "id": "environment",
@@ -247,19 +270,19 @@
           "title": "Art & Culture"
         },
         {
-          "id": "notes",
+          "id": "bpsc-notes",
           "title": "Revision Notes"
         },
         {
-          "id": "pyq",
+          "id": "bpsc-pyq",
           "title": "Previous Year Questions"
         },
         {
-          "id": "syllabus",
-          "title": "Syllabus & cutoff analysis"
+          "id": "bpsc-syllabus",
+          "title": "Syllabus & Cutoff Analysis"
         },
         {
-          "id": "books",
+          "id": "bpsc-books",
           "title": "Important Books"
         },
         {
@@ -270,42 +293,45 @@
     },
     {
       "id": "mains",
-      "title": "Mains",
+      "title": "Mains (BPSC)",
       "component": "Mains",
       "subtopics": [{
-          "id": "gs1",
+          "id": "bpsc-gs1",
           "title": "G S - 1"
         },
         {
-          "id": "gs2",
+          "id": "bpsc-gs2",
           "title": "G S - 2"
         },
-
         {
-          "id": "essay",
+          "id": "hindi",
+          "title": "Qualifying Hindi Paper"
+        },
+        {
+          "id": "bpsc-essay",
           "title": "Essay"
         },
         {
-          "id": "optional",
+          "id": "bpsc-optional",
           "title": "Optional Subjects"
         },
         {
-          "id": "answer-writing",
+          "id": "bpsc-answer-writing",
           "title": "Answer Writing"
         },
         {
-          "id": "syllabus",
-          "title": "Syllabus & cutoff analysis"
+          "id": "bpsc-syllabus",
+          "title": "Syllabus & Cutoff Analysis"
         },
         {
-          "id": "books",
+          "id": "bpsc-books",
           "title": "Important Books"
         }
       ]
     },
     {
       "id": "extra",
-      "title": "Extra",
+      "title": "Extra (BPSC)",
       "component": "Extra",
       "subtopics": [{
           "id": "constitution",
@@ -316,24 +342,32 @@
           "title": "NCERT Books"
         },
         {
-          "id": "yojana",
-          "title": "Yojana & Kurukshetra"
+          "id": "bihar-economic-survey",
+          "title": "Bihar Economic Survey"
         },
         {
           "id": "economic-survey",
-          "title": "Economic Survey"
+          "title": "Economic Survey of India"
+        },
+        {
+          "id": "bihar-budget",
+          "title": "Bihar Budget"
         },
         {
           "id": "budget",
-          "title": "Budget"
-        },
-        {
-          "id": "schemes",
-          "title": "Government Schemes"
+          "title": "Union Budget"
         },
         {
           "id": "reports",
           "title": "Important Reports"
+        },
+        {
+          "id": "schemes-bihar",
+          "title": "Bihar Government Schemes"
+        },
+        {
+          "id": "schemes",
+          "title": "Central Government Schemes"
         },
         {
           "id": "amendments",
@@ -357,7 +391,6 @@
         }
       ]
     }
-
   ]
 
 

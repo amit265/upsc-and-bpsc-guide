@@ -35,6 +35,15 @@ const topicDataMap = {
   "syllabus": syllabus,
   "books": books,
   "current-affairs": prelimsCurrentAffairs,
+  "history-bihar": history,
+  "geography-bihar": geography,
+  "economy-bihar": economy,
+  "polity-bihar": polity,
+  "bpsc-notes": notes,
+  "bpsc-pyq": pyq,
+  "bpsc-syllabus": syllabus,
+  "bpsc-books": books,
+
 
 
 };

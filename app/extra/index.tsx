@@ -31,6 +31,9 @@ const topicDataMap = {
   "judgments": judgments,
   "committees": committees,
   "misc": misc,
+  "bihar-economic-survey": economicSurvey,
+  "bihar-budget": budget,
+  "schemes-bihar": governmentSchemes,
 
 
 

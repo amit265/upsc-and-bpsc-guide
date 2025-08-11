@@ -1,7 +1,7 @@
 import colors from '@/constants/colors';
-import { Entypo, Feather, FontAwesome6, Ionicons } from '@expo/vector-icons';
+import { Entypo, Ionicons } from '@expo/vector-icons';
 import React, { useState } from 'react';
-import { StyleSheet, TouchableOpacity, View, Text, Modal, Pressable } from 'react-native';
+import { Image, Modal, Pressable, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const Header = ({ selectedExam, setSelectedExam }) => {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -12,8 +12,14 @@ const Header = ({ selectedExam, setSelectedExam }) => {
   return (
     <>
       <View style={styles.headerContainer}>
-        <Entypo name="user" size={24} color={colors.BLACK} />
+        {/* <Entypo name="user" size={24} color={colors.BLACK} /> */}
+        <View style={{ flexDirection: 'row', alignItems: 'center',  }}>
+          <Image
+            source={require('@/assets/images/icon_circle.png')}
+            style={{ width: 40, height: 40 }}
+          />
 
+        </View>
         {/* Center title + dropdown arrow */}
         <TouchableOpacity
           style={styles.titleWrapper}
@@ -21,7 +27,7 @@ const Header = ({ selectedExam, setSelectedExam }) => {
           activeOpacity={0.7}
         >
           <Text style={styles.title}>{selectedExam}</Text>
-          <Ionicons name="arrow-down" size={20} color={colors.BLACK} style={{alignItems: "center", justifyContent: "center", marginTop: 5}}/>
+          <Ionicons name="arrow-down" size={20} color={colors.BLACK} style={{ alignItems: "center", justifyContent: "center", marginTop: 5 }} />
         </TouchableOpacity>
 
         {!menuVisible ? (
@@ -80,9 +86,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingHorizontal: 20,
     paddingVertical: 6,
-    overflow: 'hidden',
     gap: 10,
-    elevation:1,
+    elevation: 1,
     shadowOpacity: 0.1,
     shadowRadius: 2,
     shadowColor: colors.BLACK,
@@ -90,28 +95,28 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     backgroundColor: colors.WHITE,
     borderWidth: 1,
-    borderColor: '#ddd'
-   
+    borderColor: '#eee'
+
 
   },
   title: {
     fontSize: 20,
     fontFamily: "quicksand-bold",
     color: colors.BLACK,
-    marginRight: 10,
   },
   modalOverlay: {
     flex: 1,
     backgroundColor: "rgba(0,0,0,0.2)",
     alignItems: "center",
-    marginTop: 50
+    marginTop: 56
   },
   dropdown: {
     backgroundColor: colors.WHITE,
     borderRadius: 8,
-    width: 150,
-    elevation: 5,
-    paddingVertical: 8
+    width: 120,
+    elevation: 1,
+    paddingVertical: 8,
+    marginLeft: 20
   },
   dropdownItem: {
     paddingVertical: 10,

@@ -17,7 +17,11 @@ const topicDataMap = {
   "schemes": governmentSchemes,
   "issues-in-news": issuesInNews,
   "vocabulary": vocabulary,
-  "monthly": dailyNews, // auto-updates each month
+  "monthly": dailyNews,
+  "bihar-current-affairs": dailyNews,
+  "schemes-bihar": governmentSchemes,
+  
+
 
 };
 
